@@ -172,6 +172,7 @@ span {
 .infoBox a {
   color: white;
   text-decoration: none;
+  text-shadow: 0px 4px 20px blue;
 }
 
 .secondaryHeadline {
