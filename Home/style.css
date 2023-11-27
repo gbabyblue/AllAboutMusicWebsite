@@ -165,7 +165,8 @@ span {
   font-size: 45px;
   padding-left: 20px;
   margin: 0 auto;
-
+  color: white;
+  text-decoration: none;
 }
 
 .secondaryHeadline {
