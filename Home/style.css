@@ -50,9 +50,10 @@ span {
   top: 0;
   height: 15%;
   width: 100%;
-  background-image: url("Images/IMAG000.JPG");
+  background-image: url("Images/IMAG000.jpg");
   background-size: contain;
   box-shadow: 0px 0px 10px 2px black ;
+  background-color: blue;
 }
 
 .leftHeader {
@@ -206,9 +207,10 @@ span {
   max-height: 15vh;
   width: 100%;
   align-items: center;
-  background-image: url("Images/IMAG000.JPG");
+  background-image: url("Images/IMAG000.jpg");
   background-size: contain;
   box-shadow: 0px 0px 10px 2px black ;
+  background-color: blue;
 }
 
 .homeAddress {
