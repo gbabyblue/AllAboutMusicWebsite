@@ -74,7 +74,7 @@ span {
 /***************  TOP NAVIGATION  ***************/
 
 .topNav {
-  margin: 16vh auto 0 auto;
+  margin: 16vh auto 15px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
