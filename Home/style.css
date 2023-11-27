@@ -169,6 +169,11 @@ span {
   text-decoration: none;
 }
 
+.infoBox a {
+  color: white;
+  text-decoration: none;
+}
+
 .secondaryHeadline {
   font-family: 'Sarala', sans-serif;
   color: lightblue;
@@ -186,7 +191,7 @@ span {
   font-family: 'Graduate'; 
   font-style: italic; 
   font-weight: bold;
-  font-size: min(8vw, 50px);
+  font-size: min(10vw, 40px);
   margin-top: 50px;
 }
 
@@ -194,6 +199,8 @@ span {
   text-shadow: 0px 4px 10px blue;
   margin: 10px auto;
 }
+
+
 
 
 /***************  FOOTER ELEMENTS ***************/
