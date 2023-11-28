@@ -1,0 +1,364 @@
+/***************  BODY AND MAIN CONTAINER + BASICS  ***************/
+
+
+body {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background-image: url('Images/IMAG000.jpg');
+  background-color: rgb(0, 0, 89);
+}
+
+* :not(body) {
+  max-width: 1000px;
+}
+
+
+
+#CTRDIV {
+  position: relative;
+  display: grid;
+  padding: 0px; 
+  margin: 0 auto;
+  /**height:587px; **/
+  /**max-width: 786px; **/
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  background-color: white;
+}
+
+
+.primaryHeadline {
+  font-family: 'Graduate'; 
+  font-style: italic; 
+  font-weight: bold;
+  color: white;
+  /**text-shadow: 0px 4px 10px blue;*/
+  font-size: 40px;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 0px 4px 10px blue;
+  
+}
+
+.pageTitle {
+  font-family: 'Graduate'; 
+  font-style: italic; 
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 4px 10px blue;
+  font-size: 55px;
+  padding: 5px;
+  display: grid;
+  align-self: center;
+  text-align: center;
+}
+
+
+/***************  HEADER ELEMENTS  ***************/
+
+.stickyHeader {
+  display: grid;
+  position: fixed;
+  grid-template-columns: 2fr 3fr 1fr;
+  top: 0;
+  height: 17%;
+  width: 100%;
+  background-image: url("Images/IMAG000.jpg");
+  background-size: contain;
+  box-shadow: 0px 0px 10px 2px black ;
+  background-color: blue;
+  z-index: 200;
+  justify-self: center;
+}
+
+.rightHeader {
+  margin: auto auto;
+}
+
+.centerHeader {
+  margin: auto auto;
+}
+
+.leftHeader {
+  margin: none ;
+}
+
+#tagLine {
+  position: absolute;
+  background-image: url('Images/IMAG024.gif');
+  background-repeat: no-repeat;
+  background-size: 30vh;
+  width: 100%;
+  height: 100%;
+  top: 11vh;
+  left: 20%;
+}
+
+.logo {
+  background-image: url('Images/logoCutout.png');
+  width: 100%;
+  height: 15vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: drop-shadow(0px 0px 20px blue );
+}
+
+
+/***************  TOP NAVIGATION  ***************/
+
+.topNav {
+  margin: 19vh auto 15px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 900px;
+}
+
+.topNav a {
+  font-family: 'Cairo', sans-serif;
+  color: black;
+  padding: 10px;
+  font-size: 40px;
+}
+
+
+/***************  Top Container Elements  ***************/
+
+
+.topContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px
+  
+}
+
+/***************  BOTTOM CONTAINER ELEMENTS  ***************/
+.section {
+  background-color: blue;
+  width: 100%;
+  background-image: url("Images/IMAG000.jpg");
+  background-size: contain;
+  position:sticky;
+  top: 16.5%;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.infoBox {
+  font-size: 45px;
+  padding-left: 20px;
+  margin: 0 auto;
+  color: white;
+  text-decoration: none;
+}
+
+.infoBox a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 0px 4px 20px blue;
+}
+
+.secondaryHeadline {
+  font-family: 'Sarala', sans-serif;
+  display: grid;
+}
+
+.s {
+  list-style-type: '🎼' ;
+  position: absolute;
+}
+
+.t {
+  list-style-type: '🎼' ;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.a {
+  list-style-type: '🎸' ;
+}
+.b {
+  list-style-type: '🎹' ;
+}
+.c {
+  list-style-type: '🥁' ;
+}
+.d {
+  list-style-type: '🎷' ;
+}
+
+ul li {
+  /**
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 3px 3px 2px black;*/
+  font-size: 30px;
+  margin-left: 1ch;
+  margin-bottom: 2ch;
+  background-color: white;
+}
+
+
+
+.signUp {
+  display: grid;
+  margin: 10px auto;
+  text-align: center;
+  color: black;
+  font-family: 'Graduate'; 
+  font-style: italic; 
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 60px;
+  height: 400px;
+  background-color: white;
+}
+
+.signUp span {
+  text-shadow: 0px 4px 25px blue;
+  margin: 10px auto;
+  background-color: white;
+}
+
+
+.quote {
+  display: grid;
+  margin: 10px auto;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.quote span {
+  text-shadow: 4px 4px 1px lightblue;
+  font-style: italic; 
+  font-weight: bold;
+  font-family: 'Cairo'; 
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+}
+
+
+
+
+
+/***************  FOOTER ELEMENTS ***************/
+
+
+.stickyFooter {
+  display: grid;
+  position: fixed;
+  grid-template-columns: 3fr 1fr;
+  bottom: 0;
+  height: 13vh;  
+  max-height: 15vh;
+  width: 100%;
+  align-items: center;
+  background-image: url("Images/IMAG000.jpg");
+  background-size: contain;
+  box-shadow: 0px 0px 10px 2px black ;
+  background-color: blue;
+  justify-self: center;
+}
+
+.homeAddress {
+  font-family: 'Jockey One', sans-serif;
+  font-family: 'Cairo', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 35px;
+  color: white;
+  margin: auto;
+}
+
+
+/***************  DROPDOWN ELEMENTS  ***************/
+
+.myDropdown {
+  position: absolute;
+  display:none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: max-content;
+  background-color: white;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  right: 0px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.dropdownBtn {
+  background-image: url('Images/Hamburger_icon.png');
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.myDropdown a {
+  color: black;
+  font-family: 'Jockey One', sans-serif;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-size: 60px;
+  text-align: center;
+  background-color: #ddd;
+  z-index: 1000;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown a:hover {
+  background-color: white;
+}
+
+.show {
+  display: block;
+}
+
+
+
+/***************  MEDIA QUERIES  ***************/
+
+
+@media (min-width: 600px) {
+  .stickyFooter div {
+    font-size: 30px;
+  }
+
+  .topNav a {
+    font-family: 'Cairo', sans-serif;
+    color: black;
+    padding: 4px;
+    font-size: 20px;
+  }
+
+}
+
+
+@media (max-height: 800px) {
+  .myDropdown a {
+    font-size: 20px ;
+  }
+  .pageTitle {
+    font-size: 30px;
+  }
+
+}
