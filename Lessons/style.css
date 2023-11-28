@@ -20,26 +20,10 @@ body {
   display: grid;
   padding: 0px; 
   margin: 0 auto;
-  /**height:587px; **/
-  /**max-width: 786px; **/
   height: auto;
   width: 100%;
   justify-content: center;
   background-color: white;
-}
-
-
-.primaryHeadline {
-  font-family: 'Graduate'; 
-  font-style: italic; 
-  font-weight: bold;
-  color: white;
-  /**text-shadow: 0px 4px 10px blue;*/
-  font-size: 40px;
-  padding: 5px;
-  text-align: center;
-  text-shadow: 0px 4px 10px blue;
-  
 }
 
 .pageTitle {
@@ -134,10 +118,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 15px
-  
 }
 
-/***************  BOTTOM CONTAINER ELEMENTS  ***************/
 .section {
   background-color: blue;
   width: 100%;
@@ -147,25 +129,15 @@ body {
   top: 16.5%;
 }
 
-.bottomContainer {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 40px;
-  justify-content: space-between;
-}
-
-.infoBox {
-  font-size: 45px;
-  padding-left: 20px;
-  margin: 0 auto;
+.primaryHeadline {
+  font-family: 'Graduate'; 
+  font-style: italic; 
+  font-weight: bold;
   color: white;
-  text-decoration: none;
-}
-
-.infoBox a {
-  color: white;
-  text-decoration: none;
-  text-shadow: 0px 4px 20px blue;
+  font-size: 40px;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 0px 4px 10px blue;
 }
 
 .secondaryHeadline {
@@ -173,41 +145,37 @@ body {
   display: grid;
 }
 
-.s {
-  list-style-type: '🎼' ;
-  position: absolute;
-}
-
-.t {
-  list-style-type: '🎼' ;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
 .a {
-  list-style-type: '🎸' ;
+  list-style-type: '\1F3B8' ;
 }
 .b {
-  list-style-type: '🎹' ;
+  list-style-type: '\1F3B9' ;
 }
 .c {
-  list-style-type: '🥁' ;
+  list-style-type: '\1F941' ;
 }
 .d {
-  list-style-type: '🎷' ;
+  list-style-type: '\1F3B7' ;
 }
 
+
 ul li {
-  /**
-  font-style: italic;
-  font-weight: bold;
-  text-shadow: 3px 3px 2px black;*/
   font-size: 30px;
   margin-left: 1ch;
   margin-bottom: 2ch;
   background-color: white;
 }
 
+
+/***************  BOTTOM CONTAINER ELEMENTS  ***************/
+
+
+.bottomContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: space-between;
+}
 
 
 .signUp {
@@ -250,8 +218,19 @@ ul li {
 }
 
 
+.infoBox {
+  font-size: 45px;
+  padding-left: 20px;
+  margin: 0 auto;
+  color: white;
+  text-decoration: none;
+}
 
-
+.infoBox a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 0px 4px 20px blue;
+}
 
 /***************  FOOTER ELEMENTS ***************/
 
