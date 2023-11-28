@@ -189,7 +189,7 @@ span {
   margin: 10px auto;
   text-align: center;
   color: black;
-  height: 300px;
+  height: 330px;
   font-family: 'Graduate'; 
   font-style: italic; 
   font-weight: bold;
@@ -213,7 +213,7 @@ span {
   position: fixed;
   grid-template-columns: 3fr 1fr;
   bottom: 0;
-  height: 10vh; 
+  height: 13vh;  
   max-height: 15vh;
   width: 100%;
   align-items: center;
