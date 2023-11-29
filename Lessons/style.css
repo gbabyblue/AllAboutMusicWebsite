@@ -316,9 +316,9 @@ ul li {
 
 .dropdownBtn {
   background-image: url('Images/Hamburger_icon.png');
-  width: 20px;
-  height: 20px;
-  background-size: contain;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
 }
