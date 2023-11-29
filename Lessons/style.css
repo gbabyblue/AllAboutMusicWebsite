@@ -391,8 +391,9 @@ ul li {
   }
 
   .pageTitle {
-    font-size: 30px;
+    font-size: 25px;
   }
+  
   .rightHeader {
     margin: auto auto;
     width: fit-content;
