@@ -16,7 +16,7 @@ body {
 
 ul {
   max-width:700px;
-  margin: auto auto;
+  margin: 30px auto;
 }
 
 
@@ -42,7 +42,7 @@ ul {
   font-weight: bold;
   color: white;
   text-shadow: 0px 4px 10px blue;
-  font-size: 45px;
+  font-size: 50px;
   padding: 5px;
   display: grid;
   align-self: center;
@@ -91,10 +91,11 @@ ul {
 
 .logo {
   background-image: url('Images/logoCutout.png');
-  width: 25vh;
+  width: 20vh;
   height: 15vh;
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   filter: drop-shadow(0px 0px 20px blue );
 }
 
@@ -102,12 +103,15 @@ ul {
 /***************  TOP NAVIGATION  ***************/
 
 .topNav {
-  margin: 18vh auto 15px auto;
+  margin: 0 auto 20vh auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100%;
   max-width: 900px;
+  position: sticky;
+  top: 17vh;
+  background-color: white;
 }
 
 .topNav a {
@@ -141,6 +145,7 @@ ul {
   top: 17%;
   left: 0
 }
+
 
 .primaryHeadline {
   font-family: 'Graduate'; 
@@ -218,20 +223,21 @@ ul li {
   width: 100%;
   background-color: blue;
   background-image: url('Images/IMAG000.jpg');
+  
 }
 
 .signUp {
   display: grid;
-  margin: 10px auto;
   text-align: center;
   color: black;
   font-family: 'Graduate'; 
   font-style: italic; 
   font-weight: bold;
   font-size: 40px;
-  margin-top: 60px;
-  height: 400px;
+  margin: 20px auto;
   background-color: white;
+  position: sticky;
+  top: 17vh;
 }
 
 .signUp span {
@@ -247,6 +253,8 @@ ul li {
   text-align: center;
   color: black;
   background-color: white;
+  position: sticky;
+  top: 17vh;
 }
 
 .quote span {
@@ -258,6 +266,7 @@ ul li {
   padding: 10px;
   font-size: 20px;
   background-color: white;
+  
 }
 
 
@@ -307,8 +316,8 @@ ul li {
 
 .dropdownBtn {
   background-image: url('Images/Hamburger_icon.png');
-  width: 5vh;
-  height: 5vh;
+  width: 20px;
+  height: 20px;
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 5px;
@@ -345,7 +354,7 @@ ul li {
 /***************  MEDIA QUERIES  ***************/
 
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
   .stickyFooter div {
     font-size: 30px;
   }
@@ -359,11 +368,55 @@ ul li {
 
   .section {
     position: relative;
-    top: 0;
   }
 
   .logo {
     width: 30vh;
+  }
+
+}
+
+
+@media (max-width: 750px) {
+  .stickyFooter div {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  .topNav a {
+    font-family: 'Cairo', sans-serif;
+    color: black;
+    padding: 4px;
+    font-size: 20px;
+  }
+
+  .pageTitle {
+    font-size: 5vw;
+  }
+  .rightHeader {
+    margin: auto auto;
+    width: fit-content;
+  }
+  
+  .centerHeader {
+    margin: auto auto;
+    width: max-content;
+  }
+  
+  .leftHeader {
+    margin: auto 0 ;
+  }
+
+  .logo {
+    width: 40vw;
+  }
+
+  .primaryHeadline {
+    font-size: 3em;
+  }
+
+  ul li { 
+    font-size: 1.5em;
   }
 
 }
@@ -375,6 +428,10 @@ ul li {
   }
   .pageTitle {
     font-size: 30px;
+  }
+  .stickyFooter div {
+    font-size: 1em;
+    padding: 10px;
   }
 
 }
