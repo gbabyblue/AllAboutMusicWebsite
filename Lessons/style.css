@@ -321,6 +321,7 @@ ul li {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
+  margin-left: 20px
 }
 
 .myDropdown a {
@@ -339,6 +340,8 @@ ul li {
 .dropdown {
   position: relative;
   display: inline-block;
+  height:34px;
+  width: 34px;
 }
 
 .dropdown a:hover {
