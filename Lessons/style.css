@@ -1,7 +1,7 @@
 /***************  BODY AND MAIN CONTAINER + BASICS  ***************/
 
 body {
-  width: 100%;
+  width: auto;
   height: 100%;
   left: 0;
   background-color: white /* rgb(0, 0, 89);*/
