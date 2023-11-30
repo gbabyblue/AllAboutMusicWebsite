@@ -65,7 +65,7 @@ span {
   display: grid;
   position: fixed;
   top: 0;
-  height: 15%;
+  height: 200px;
   width: 100%;
   background-image: url("Images/IMAG000.jpg");
   background-size: contain;
@@ -88,8 +88,8 @@ span {
 
 .logo {
   background-image: url('Images/logoCutout.png');
-  width: 20vh;
-  height: 15vh;
+  width: 400px;
+  height: 200px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -104,7 +104,7 @@ span {
   margin: 20px auto 12vh auto;
   justify-content: space-evenly;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   height: 200px;
 }
 
@@ -118,15 +118,24 @@ span {
 
 /***************  Top Container Elements  ***************/
 
+.poster {
+  width: 100%;
+  max-width: 1200px;
+  height: 300px;
+  background-image: url(Images/poster.jpg); 
+  background-size:contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto; 
+
+}
 
 .topContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 20vh;
-  max-width: 1200;
-  margin: 17vh auto 30px auto;
-  
+  max-width: 1200px;
+  margin: 10px auto 30px auto;
 }
 
 
@@ -184,18 +193,17 @@ span {
   display: flex;
   position: relative;
   flex-wrap: wrap;
-  margin: auto auto;
-  max-width: 1300;
+  margin: 200px auto 10px auto;
+  max-width: 1200px;
 }
 
 .infoBox {
   font-size: 20px;
-  padding-left: 20px;
-  margin: 0 auto;
+  padding: 10px;
+  margin: auto auto;
   color: white;
   text-decoration: none;
   width: 33%;
-  
 }
 
 .infoBox a {
@@ -210,7 +218,7 @@ span {
   color: black;
   display: flex;
   flex-wrap: wrap;
-  margin: 20px auto;
+  margin: auto auto;
 }
 
 
@@ -281,8 +289,8 @@ span {
 
 .dropdownBtn {
   background-image: url('Images/Hamburger_icon.png');
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
@@ -305,8 +313,8 @@ span {
 .dropdown {
   position: relative;
   display: inline-block;
-  height:34px;
-  width: 34px;
+  height:40px;
+  width: 40px;
 }
 
 .dropdown a:hover {
@@ -322,7 +330,11 @@ span {
 /***************  MEDIA QUERIES  ***************/
 
 
-@media (min-width: 900px) {
+
+
+
+
+@media (min-width: 976px) {
   .stickyFooter div {
     font-size: 30px;
   }
@@ -343,7 +355,8 @@ span {
   }
 
   .logo {
-    width: 30vh;
+    width: 400px;
+    height: 200px;
   }
 
   .homeButton {
@@ -357,6 +370,11 @@ span {
     height: 100%;
     width: 100%;
     font-size: 45px;/** min(10vw, 50px);**/
+  }
+
+  .dropdownBtn {
+    width: 50px;
+    height: 50px;
   }
 
 }
@@ -375,13 +393,28 @@ span {
     font-size: 20px;
   }
 
-  .pageTitle {
-    font-size: 25px;
+  .poster {
+    height: 220px;
   }
 
-  
+  .bottomContainer {
+    margin: 150px auto 10px auto;
+  }
+
+  /**
+  .topContainer {
+    margin: 150px auto 30px auto;
+  }
+  */
+
+  .stickyHeader {
+    height: 150px;
+    width: 100%;
+  }
+
   .logo {
-    width: 40vw;
+    width: 300px;
+    height: 100px;
   }
 
   .infoBox {
@@ -408,8 +441,13 @@ span {
     font-size: 25px;/** min(10vw, 50px);**/
   }
 
-}
+  .dropdown {
+    position: absolute;
+    right: 30px;
+    top: 50px;
+  }
 
+}
 
 @media (max-height: 800px) {
   .myDropdown a {
@@ -428,4 +466,36 @@ span {
     font-size: 25px;/** min(10vw, 50px);**/
   }
 
+  .homeButton {
+    height: 100px;
+    width: 80%;
+    margin: 10px;
+  }
+
+  .bottomContainer {
+    margin: 80px auto 10px auto;
+  }
+  
+  /*
+  .topContainer {
+    margin: 80px auto 30px auto;
+  }
+  */
+
+  .stickyHeader {
+    height: 80px;
+    width: 100%;
+  }
+
+  .logo {
+    width: 150px;
+    height: 80px;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 15px;
+  }
+
 }
+
