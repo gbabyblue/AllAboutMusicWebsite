@@ -127,8 +127,29 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto; 
-
 }
+
+
+.buildingPhoto, .buildingPhoto2 {
+  width: 400px;
+  max-width: 1200px;
+  height: 400px;
+  background-size:cover; 
+  background-position: center;
+  background-position-y: 0;
+  background-repeat: no-repeat;
+  margin: 10px 10px; 
+  border-radius: 5px;
+}
+
+.buildingPhoto {
+  background-image: url(Images/Storefront.jpg); 
+}
+
+.buildingPhoto2 {
+  background-image: url(Images/inside.jpeg); 
+}
+
 
 .topContainer {
   display: flex;
@@ -194,7 +215,7 @@ span {
   position: relative;
   flex-wrap: wrap;
   margin: 200px auto 10px auto;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .infoBox {
@@ -203,7 +224,7 @@ span {
   margin: auto auto;
   color: white;
   text-decoration: none;
-  width: 33%;
+  width: 40%;
 }
 
 .infoBox a {
@@ -340,7 +361,7 @@ span {
   }
 
   .infoBox {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .topNav a {
@@ -450,6 +471,11 @@ span {
   .dropdownBtn {
     width: 40px;
     height: 40px;
+  }
+
+  .buildingPhoto, .buildingPhoto2 {
+    width: 40vw;
+    height: 40vw;
   }
 
 }
