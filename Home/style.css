@@ -157,7 +157,7 @@ span {
 .pictures {
   margin: 0 auto;
   margin-top: 220px;
-  width: 1000px;
+  max-width: 974px;
   justify-content:space-evenly;
   overflow: hidden;
 }
