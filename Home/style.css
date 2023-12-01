@@ -134,24 +134,15 @@ span {
   margin: 0 auto; 
 }
 
-.pictures {
-  margin: 0 auto;
-  margin-top: 220px;
-  max-width: 1200px;
-}
-
-
-
-
 .buildingPhoto, .buildingPhoto2 {
-  width: 350px;
+  width: 320px;
   max-width: 580px;
-  height: 350px;
+  height: 320px;
   background-size:cover; 
   background-position: center;
   background-position-y: 0;
   background-repeat: no-repeat;
-  margin: 5px 5px;
+  margin: 20px 0px;
   border-radius: 50%;
   border: 10px solid white;
 }
@@ -162,6 +153,13 @@ span {
 
 .buildingPhoto2 {
   background-image: url(Images/inside.jpeg);
+}
+
+.pictures {
+  margin: 0 auto;
+  margin-top: 220px;
+  width: 100%;
+  justify-content:space-evenly;
 }
 
 
@@ -254,8 +252,9 @@ span {
   display: flex;
   flex-wrap: wrap;
   margin: auto auto;
+  justify-content: center;
+  text-align: center;
 }
-
 
 .signUp {
   display: grid;
@@ -414,8 +413,13 @@ span {
   }
 
   .buildingPhoto, .buildingPhoto2 {
-    width: 460px;
-    height: 460px;
+    width: 435px;
+    height: 435px;
+  }
+
+  .pictures {
+    width: 945px;
+    justify-content:space-between;
   }
 
 }
@@ -440,7 +444,9 @@ span {
 
   
   .pictures {
-    margin-top: 160px
+    margin-top: 160px;
+    width: 100%;
+    display: grid !important;
   }
 
   /**
@@ -500,8 +506,11 @@ span {
   }
 
   .buildingPhoto, .buildingPhoto2 {
-    width: 45vw;
-    height: 45vw;
+    width: 80vw;
+    height: 80vw;
+  }
+  .buildingPhoto2 {
+    display: none;
   }
 
 }
@@ -532,7 +541,7 @@ span {
   
 
   .pictures {
-    margin-top: 90px;
+    margin-top: 80px;
     width: 100%;
   }
   
@@ -561,5 +570,13 @@ span {
     top: 15px;
   }
 
+}
+
+
+@media (max-height: 450px) {
+  .buildingPhoto, .buildingPhoto2  {
+    width: 30vw;
+    height:30vw;
+  }
 }
 
