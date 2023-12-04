@@ -486,7 +486,7 @@ li:before {
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 749px) {
   .stickyFooter div {
     font-size: 1em;
     padding: 10px;
