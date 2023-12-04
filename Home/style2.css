@@ -207,7 +207,7 @@ li:before {
   align-content: center;
 
   color: lightskyblue;
-  font-size: 50px;/** min(10vw, 50px);**/
+  font-size: 30px;/** min(10vw, 50px);**/
   font-family: 'Graduate'; 
   font-style: italic; 
   font-weight: bold;
