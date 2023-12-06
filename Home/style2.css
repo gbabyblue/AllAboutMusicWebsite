@@ -645,7 +645,7 @@ li:before {
 
 }
 
-@media (max-height: 800px) {
+@media (max-height: 665px) {
   .myDropdown a {
     font-size: 20px ;
   }
