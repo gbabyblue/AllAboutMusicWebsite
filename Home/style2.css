@@ -329,9 +329,8 @@ li:before {
   font-family: 'Cairo', sans-serif;
   font-style: italic;
   font-weight: 500;
-  font-size: 35px;
+  font-size: 30px;
   color: white;
-  margin: auto auto;
   max-width: 80%;
 }
 
@@ -459,8 +458,8 @@ li:before {
   }
 
   .homeButton {
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 550px;
     margin: 10px;
   }
 
@@ -492,12 +491,12 @@ li:before {
   }
 
   .max, .signUp {
-    width: 1300px;
+    width: 1200px;
   }
 
   .buildingPhoto, .buildingPhoto2 {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
   }
 
 }
@@ -553,7 +552,7 @@ li:before {
 
   
   .pictures {
-    margin-top: 152px;
+    margin-top: 120px;
     width: 100%;
     display: grid !important;
   }
@@ -570,7 +569,7 @@ li:before {
   */
 
   .stickyHeader {
-    height: 150px;
+    height: 120px;
     width: 100%;
   }
 
@@ -593,7 +592,7 @@ li:before {
   }
 
   .homeButton {
-    height: 500px;
+    height: 300px;
     width: 100%;
     margin: 10px;
   }
