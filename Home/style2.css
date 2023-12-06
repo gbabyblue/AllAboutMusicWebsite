@@ -72,15 +72,17 @@ li:before {
 
 .max, .signUp {
   display: flex;
-  max-width: 1100px;
-  margin: auto auto ;
+  max-width: 1300px;
+  margin: auto auto;
+  justify-content: space-evenly;
+  width: auto;
 }
 
 .stickyHeader {
   display: grid;
   position: fixed;
   top: 0;
-  height: 200px;
+  height: 120px;
   width: 100%;
   background-image: url("Images/IMAG000.jpg");
   background-size: contain;
@@ -89,9 +91,7 @@ li:before {
   z-index:99;
 }
 
-.rightHeader {
-  margin: auto 70px;
-}
+
 
 .centerHeader {
   margin: auto auto;
@@ -103,8 +103,8 @@ li:before {
 
 .logo {
   background-image: url('Images/logoCutout.png');
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 100px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -112,8 +112,24 @@ li:before {
 }
 
 /***************  TOP NAVIGATION  ***************/
-
 .topNav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: max-content;
+}
+
+.topNav a {
+  font-family: 'Cairo', sans-serif;
+  color: white;
+  padding: 5px;
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.bottomNav {
   display: flex;
   flex-wrap: wrap;
   margin: 20px auto 12vh auto;
@@ -123,7 +139,7 @@ li:before {
   height: 200px;
 }
 
-.topNav a {
+.bottomNav a {
   font-family: 'Cairo', sans-serif;
   color: white;
   padding: 5px;
@@ -148,13 +164,12 @@ li:before {
 
 .buildingPhoto, .buildingPhoto2 {
   width: 320px;
-  max-width: 580px;
   height: 320px;
   background-size:cover; 
   background-position: center;
   background-position-y: 0;
   background-repeat: no-repeat;
-  margin: 20px 0px;
+  margin: 20px 20px;
   border-radius: 50%;
 }
 
@@ -168,10 +183,11 @@ li:before {
 
 .pictures {
   margin: 0 auto;
-  margin-top: 220px;
+  margin-top: 120px;
   width: 100%;
   justify-content:space-evenly;
   overflow: hidden;
+  background-color: black;
 }
 
 
@@ -180,7 +196,7 @@ li:before {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 10px auto 30px auto;
 }
 
@@ -297,7 +313,7 @@ li:before {
   display: grid;
   position: fixed;
   bottom: 0;
-  height: 13vh;  
+  height: 12vh;  
   max-height: 15vh;
   width: 100%;
   align-items: center;
@@ -360,7 +376,7 @@ li:before {
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: none;
   height:40px;
   width: 40px;
 }
@@ -410,6 +426,9 @@ li:before {
 
 
 @media (min-width: 976px) {
+  .max, .signUp {
+    width: auto;
+  }
   .stickyFooter div {
     font-size: 30px;
   }
@@ -423,7 +442,7 @@ li:before {
     width: 1100px;
   }
 
-  .topNav a {
+  .bottomNav a {
     font-family: 'Cairo', sans-serif;
     color: white;
     padding: 4px;
@@ -435,13 +454,13 @@ li:before {
   }
 
   .logo {
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: 100px;
   }
 
   .homeButton {
-    height: 20vh;
-    width: 450px;
+    height: 600px;
+    width: 600px;
     margin: 10px;
   }
 
@@ -463,7 +482,6 @@ li:before {
   }
 
   .pictures {
-    width: 945px;
     justify-content:space-evenly;
   }
 
@@ -473,9 +491,22 @@ li:before {
     text-decoration: none;
   }
 
+  .max, .signUp {
+    width: 1300px;
+  }
+
+  .buildingPhoto, .buildingPhoto2 {
+    width: 600px;
+    height: 600px;
+  }
+
 }
 
-@media (min-width: 976px) and (max-width: 1140px) {
+@media (min-width: 976px) and (max-width: 1275px) {
+  .max, .signUp {
+    width: auto;
+  }
+
   .bottomContainer {
     max-width: 954px;
     width: 954px;
@@ -483,16 +514,33 @@ li:before {
   .secondaryHeadline {
     font-size: 30px;
   }
+  .homeButton {
+    width: 400px;
+    height: 400px;
+    
+  }
+  .homeButton a {
+    font-size: 35px;
+  }
+
+
+  .buildingPhoto, .buildingPhoto2 {
+    width: 435px;
+    height: 435px;
+  }
 }
 
 
 @media (max-width: 749px) {
+  .max, .signUp {
+    width: auto;
+  }
   .stickyFooter div {
     font-size: 1em;
     padding: 10px;
   }
 
-  .topNav a {
+  .bottomNav a {
     font-family: 'Cairo', sans-serif;
     color: white;
     padding: 4px;
@@ -505,7 +553,7 @@ li:before {
 
   
   .pictures {
-    margin-top: 160px;
+    margin-top: 152px;
     width: 100%;
     display: grid !important;
   }
@@ -534,9 +582,9 @@ li:before {
   .infoBox {
     font-size: 28px;
     width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    display: grid;
-    justify-content: left;
   }
 
   .buttonPhoto {
@@ -545,7 +593,7 @@ li:before {
   }
 
   .homeButton {
-    height: 20vh;
+    height: 500px;
     width: 100%;
     margin: 10px;
   }
@@ -554,13 +602,19 @@ li:before {
     display: grid;
     height: 100%;
     width: 100%;
-    font-size: 25px;/** min(10vw, 50px);**/
+    font-size: 30px;/** min(10vw, 50px);**/
   }
+
+  .rightHeader {
+    margin: auto 70px;
+  }
+
 
   .dropdown {
     position: absolute;
     right: 30px;
     top: 50px;
+    display: inline-block;
   }
 
   .dropdownBtn {
@@ -574,6 +628,14 @@ li:before {
   }
   .buildingPhoto2 {
     display: none !important;
+  }
+
+  .topNav {
+    display: none;
+  }
+
+  .centerHeader {
+    display: none;
   }
 
   .animate {
@@ -642,9 +704,15 @@ li:before {
 
 @media (max-height: 450px) {
   .buildingPhoto, .buildingPhoto2  {
-    width: 30vw;
-    height:30vw;
+    width: 20vw;
+    height:20vw;
+    margin: 20px 50px;
   }
+
+  .topNav a{
+    font-size: 20px;
+  }
+
 }
 
 * :not(.buttonPhoto) {
@@ -656,7 +724,3 @@ body{
   background-color: black;
   background-image: url('Images/IMAG000.jpg');
 }
-
-
-
-
