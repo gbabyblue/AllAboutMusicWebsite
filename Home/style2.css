@@ -579,8 +579,8 @@ li:before {
   }
 
   .infoBox {
-    font-size: 25px;
-    width: 90vw;
+    font-size: 23px;
+    width: 94vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -651,7 +651,7 @@ li:before {
   }
 
   .stickyFooter div {
-    font-size: 1em;
+    font-size: 15px;
     padding: 10px;
   }
 
