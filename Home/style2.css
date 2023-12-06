@@ -579,7 +579,7 @@ li:before {
   }
 
   .infoBox {
-    font-size: 28px;
+    font-size: 25px;
     width: 90vw;
     display: flex;
     flex-wrap: wrap;
