@@ -25,6 +25,7 @@ span {
   text-shadow: 3px 3px 2px black;
   margin: 10px;
   padding: none;
+  margin-right: 2ch;
   
 }
 
@@ -599,7 +600,7 @@ li:before {
     width: auto;
   }
   .stickyFooter div {
-    font-size: 1em;
+    font-size: 15px;
     padding: 10px;
   }
 
