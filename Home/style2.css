@@ -537,6 +537,62 @@ li:before {
   }
 }
 
+@media (max-height: 665px) {
+  .myDropdown a {
+    font-size: 20px ;
+  }
+
+  .stickyFooter div {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .homeButton a {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;/** min(10vw, 50px);**/
+  }
+
+  .homeButton {
+    height: 100px;
+    width: 80%;
+    margin: 10px;
+  }
+
+
+  .pictures {
+    margin-top: 80px;
+  }
+  
+  /*
+  .bottomContainer {
+    margin: 80px auto 10px auto;
+  }
+
+  .topContainer {
+    margin: 80px auto 30px auto;
+  }
+  */
+
+  .stickyHeader {
+    height: 80px;
+    width: 100%;
+  }
+
+  .logo {
+    width: 150px;
+    height: 80px;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 15px;
+  }
+
+
+}
+
 
 @media (max-width: 749px) {
   .max, .signUp {
@@ -600,7 +656,7 @@ li:before {
   }
 
   .homeButton {
-    height: 300px;
+    height: 280px;
     width: 100%;
     margin: 10px;
   }
@@ -653,61 +709,7 @@ li:before {
 
 }
 
-@media (max-height: 665px) {
-  .myDropdown a {
-    font-size: 20px ;
-  }
 
-  .stickyFooter div {
-    font-size: 15px;
-    padding: 10px;
-  }
-
-  .homeButton a {
-    display: grid;
-    height: 100%;
-    width: 100%;
-    font-size: 25px;/** min(10vw, 50px);**/
-  }
-
-  .homeButton {
-    height: 100px;
-    width: 80%;
-    margin: 10px;
-  }
-
-
-  .pictures {
-    margin-top: 80px;
-  }
-  
-  /*
-  .bottomContainer {
-    margin: 80px auto 10px auto;
-  }
-
-  .topContainer {
-    margin: 80px auto 30px auto;
-  }
-  */
-
-  .stickyHeader {
-    height: 80px;
-    width: 100%;
-  }
-
-  .logo {
-    width: 150px;
-    height: 80px;
-  }
-
-  .dropdown {
-    position: absolute;
-    top: 15px;
-  }
-
-
-}
 
 @media (max-height: 450px) {
   .buildingPhoto, .buildingPhoto2  {
