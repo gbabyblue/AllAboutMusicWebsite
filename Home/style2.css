@@ -104,8 +104,8 @@ li:before {
 
 .logo {
   background-image: url('Images/logoCutout.png');
-  width: 300px;
-  height: 100px;
+  width: 150px;
+  height: 80px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
