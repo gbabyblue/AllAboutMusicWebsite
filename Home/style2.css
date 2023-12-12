@@ -172,6 +172,7 @@ li:before {
   background-repeat: no-repeat;
   margin: 20px 20px;
   border-radius: 50%;
+  opacity: 1;
 }
 
 .buildingPhoto {
@@ -421,8 +422,10 @@ li:before {
 }
 
 .animate {
+  width: 320px;
+  height: 320px;
   box-shadow: 0px 1px 5px 2px blue;
-  border: 10px ridge black;
+  border: 40vw inset black;
   animation: rotateY3 16s infinite linear forwards;
 }
 
@@ -484,11 +487,6 @@ li:before {
     height: 50px;
   }
 
-  .buildingPhoto, .buildingPhoto2 {
-    width: 435px;
-    height: 435px;
-  }
-
   .pictures {
     justify-content:space-evenly;
   }
@@ -503,7 +501,7 @@ li:before {
     width: 1200px;
   }
 
-  .buildingPhoto, .buildingPhoto2 {
+  .buildingPhoto, .buildingPhoto2, .animate {
     width: 500px;
     height: 500px;
   }
@@ -532,7 +530,7 @@ li:before {
   }
 
 
-  .buildingPhoto, .buildingPhoto2 {
+  .buildingPhoto, .buildingPhoto2, .animate {
     width: 435px;
     height: 435px;
   }
@@ -686,13 +684,17 @@ li:before {
     height: 40px;
   }
 
-  .buildingPhoto, .buildingPhoto2 {
+  .buildingPhoto, .buildingPhoto2, .animate {
     width: 80vw;
     height: 80vw;
   }
+
+  
+   /**
   .buildingPhoto2 {
     display: none !important;
   }
+  */
 
   .topNav {
     display: none;
@@ -713,7 +715,7 @@ li:before {
 
 
 @media (max-height: 450px) {
-  .buildingPhoto, .buildingPhoto2  {
+  .buildingPhoto, .buildingPhoto2, .animate  {
     width: 20vw;
     height:20vw;
     margin: 20px 50px;
