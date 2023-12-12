@@ -463,11 +463,6 @@ li:before {
     position: relative;
   }
 
-  .logo {
-    width: 300px;
-    height: 100px;
-  }
-
   .homeButton {
     height: 400px;
     width: 550px;
