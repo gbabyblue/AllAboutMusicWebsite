@@ -212,7 +212,7 @@ li:before {
 
 .homeButton {
   /**background-color: rgb(0, 0, 166);**/
-  box-shadow: 0px 0px 20px 2px blue ;
+  box-shadow: 0px 0px 20px 2px black ;
   width: 40%;
   height: 20vh;
   max-width: 1100px;
@@ -230,15 +230,12 @@ li:before {
   width: 100%;
   justify-content: center;
   align-content: center;
-
   color: lightskyblue;
   font-size: 30px;/** min(10vw, 50px);**/
-  font-family: 'Graduate'; 
+  font-family: 'Kumar One Outline'; 
   font-style: italic; 
-  font-weight: bold;
   text-decoration: none;
-  text-shadow: 0px 4px 10px black;
-  
+  text-shadow: 0px 0px 1px blue;
   background-size: cover;
   background-position: center;
   border-radius: 4px;  
@@ -255,8 +252,9 @@ li:before {
 
 .homeButton:hover {
   opacity: 1;
-  box-shadow: 0px 0px 5px 2px black ;
+  box-shadow: 0px 0px 5px 2px blue ;
 }
+
 
 
 /***************  BOTTOM CONTAINER ELEMENTS  ***************/
