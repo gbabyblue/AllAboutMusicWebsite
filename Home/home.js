@@ -68,13 +68,11 @@ function fadeInOut(picture) {
 let picture = document.querySelector('.buildingPhoto');
 
 window.addEventListener('focus', function() {
-  console.log(picture.style.backgroundImage)
   /**picture.classList.add('changePicture')**/
-  console.log(picture.style.backgroundImage) 
+  console.log('focus')
 });
 
 window.addEventListener('blur', function() {
-  console.log(picture.style.backgroundImage)
   picture.classList.remove('changePicture')
-  console.log(picture.style.backgroundImage)
+  console.log('blur')
 });
