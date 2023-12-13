@@ -71,12 +71,12 @@ let picture = document.querySelector('.buildingPhoto');
 window.addEventListener('focus', function() {
   console.log('focus')
   picture.style.animationPlayState = 'running';
-  fadeInOut(document.querySelector('.buildingPhoto'))
+  //fadeInOut(document.querySelector('.buildingPhoto'))
 });
 
 window.addEventListener('blur', function() {
   console.log('blur')
   picture.style.animationPlayState = 'paused';
-  clearInterval(fade)
+  //clearInterval(fade)
 });
 // fadeInOut(document.querySelector('.buildingPhoto'))
