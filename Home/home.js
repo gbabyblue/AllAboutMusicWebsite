@@ -3,8 +3,6 @@ const dropDownButton = document.querySelector('.dropdownBtn')
 let clicked = false
 
 
-
-
 window.addEventListener('click', (e) => {
   if (!e.target.matches('.dropdownBtn')) {
     dropDownDiv.classList.remove('show')
