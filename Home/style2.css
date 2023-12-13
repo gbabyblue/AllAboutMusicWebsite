@@ -258,7 +258,7 @@ li:before {
 
 .buttonPhoto {
   background-color: black;
-  padding: 50px;
+  padding: 25px;
   border: 1px solid lightskyblue;
   color: white;
   position: absolute;
@@ -539,6 +539,10 @@ li:before {
     height: 800px;
     max-width: 1600px;
     background-position: center;
+  }
+
+  .buttonPhoto {
+    padding: 50px;
   }
 
 }
