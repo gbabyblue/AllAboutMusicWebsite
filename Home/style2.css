@@ -177,6 +177,7 @@ li:before {
 .buildingPhoto {
   /**background-image: url(Images/Storefront.jpg); **/
   animation: changePicture 16s ease-in-out infinite;
+  /**animation: changePicture2 4s ease-in-out infinite alternate;**/
 }
 
 .buildingPhoto2 {
@@ -411,6 +412,14 @@ li:before {
   100% {background-image: url(Images/Storefront.jpg);}
 }
 
+@keyframes changePicture2 {
+  0% {opacity: 1;background-image: url(Images/Storefront.jpg);}
+  43% {opacity: 1;background-image: url(Images/Storefront.jpg)}
+  44% {opacity: 0;}
+  46% {background-image: url(Images/inside.jpeg);}
+  50% {opacity: 1;}
+  100%{background-image: url(Images/inside.jpeg);}
+}
 
 @keyframes rotateY {
   0% {border-top: 10px dotted blue}
