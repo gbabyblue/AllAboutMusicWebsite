@@ -214,6 +214,7 @@ li:before {
   margin: 0 auto;
   font-weight: bold;
   font-family: Rajdhani ;
+  width: 95vw;
 }
 
 
@@ -771,9 +772,6 @@ li:before {
     animation: rotateY3 6s infinite linear forwards;
   }
 
-  .bio {
-    width: 95vw;
-  }
 }
 
 
