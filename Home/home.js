@@ -29,9 +29,6 @@ dropDownButton.addEventListener('click', (e) => {
 
 
 
-
-
-
 function fadeIn(elem, interval) {
   let opacity = .1
   let fadeI = setInterval(() => {
