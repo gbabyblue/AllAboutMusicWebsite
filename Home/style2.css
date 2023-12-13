@@ -767,6 +767,9 @@ li:before {
     animation: rotateY3 6s infinite linear forwards;
   }
 
+  .bio {
+    width: 95vw;
+  }
 }
 
 
