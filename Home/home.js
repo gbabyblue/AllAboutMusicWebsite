@@ -64,4 +64,15 @@ function fadeInOut(picture) {
   }, 4200)
 }
 
+
+let picture = document.querySelector('.buildingPhoto');
+
+window.addEventListener('focus', function() {
+  picture.classList.remove('paused');
+});
+
+window.addEventListener('blur', function() {
+  picture.classList.add('paused');
+});
+
 // fadeInOut(document.querySelector('.buildingPhoto'))
