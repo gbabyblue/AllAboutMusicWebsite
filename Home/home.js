@@ -65,18 +65,12 @@ function fadeInOut(picture) {
 }
 
 
-let fade
 let picture = document.querySelector('.buildingPhoto');
 
 window.addEventListener('focus', function() {
-  console.log('focus')
-  picture.style.animationPlayState = 'running';
-  //fadeInOut(document.querySelector('.buildingPhoto'))
+  picture.classList.add('changePicture')
 });
 
 window.addEventListener('blur', function() {
-  console.log('blur')
-  picture.style.animationPlayState = 'paused';
-  //clearInterval(fade)
+  picture.classList.remove('changePicture')
 });
-// fadeInOut(document.querySelector('.buildingPhoto'))
