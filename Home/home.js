@@ -69,4 +69,4 @@ function fadeInOut(picture) {
   }, 4200)
 }
 
-fadeInOut(document.querySelector('.buildingPhoto'))
+// fadeInOut(document.querySelector('.buildingPhoto'))
