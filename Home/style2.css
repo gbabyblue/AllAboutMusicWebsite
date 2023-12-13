@@ -180,8 +180,8 @@ li:before {
 }
 
 .changePicture {
-  /**animation: changePicture 16s ease-in-out infinite; **/
-  animation: changePicture2 8s ease-in-out infinite alternate forrwards;
+  animation: changePicture 16s ease-in-out infinite;
+  /**animation: changePicture2 8s ease-in-out infinite alternate forrwards;**/
 }
 
 .buildingPhoto2 {
