@@ -175,9 +175,13 @@ li:before {
 }
 
 .buildingPhoto {
-  /**background-image: url(Images/Storefront.jpg); */
-  /** animation: changePicture 16s ease-in-out infinite; **/
-  animation: changePicture2 8s ease-in-out infinite alternate forwards;
+  background-image: url(Images/Storefront.jpg); 
+  
+}
+
+.changePicture {
+  animation: changePicture 16s ease-in-out infinite; 
+  /** animation: changePicture2 8s ease-in-out infinite alternate;**/
 }
 
 .buildingPhoto2 {
