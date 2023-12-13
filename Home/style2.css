@@ -404,16 +404,16 @@ li:before {
 /***************  ANIMATIONS  ***************/
 
 @keyframes changePicture {
-  0% {opacity: 1; background-image: url(Images/Storefront.jpg) !important;}
-  24% {opacity: 1;background-image: url(Images/Storefront.jpg) !important;}
+  0% {opacity: 1; background-image: url(Images/Storefront.jpg);}
+  24% {opacity: 1;background-image: url(Images/Storefront.jpg);}
   25% {opacity: 0;}
-  26% {background-image: url(Images/inside.jpeg) !important;}
+  26% {background-image: url(Images/inside.jpeg);}
   30% {opacity: 1;}
-  49% {opacity: 1; background-image: url(Images/inside.jpeg) !important;}
+  49% {opacity: 1; background-image: url(Images/inside.jpeg);}
   50% {opacity: 0;}
-  51% {background-image: url(Images/Storefront.jpg) !important;}
+  51% {background-image: url(Images/Storefront.jpg);}
   55% {opacity: 1;}
-  100% {background-image: url(Images/Storefront.jpg) !important;}
+  100% {background-image: url(Images/Storefront.jpg);}
 }
 
 
