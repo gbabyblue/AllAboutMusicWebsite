@@ -177,7 +177,7 @@ li:before {
 .buildingPhoto {
   background-image: url(Images/Storefront.jpg); 
   /** animation: changePicture 16s ease-in-out infinite; **/
-  /**animation: changePicture2 4s ease-in-out infinite alternate;**/
+  animation: changePicture2 4s ease-in-out infinite alternate;
 }
 
 .buildingPhoto2 {
