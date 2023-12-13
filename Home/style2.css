@@ -253,7 +253,7 @@ li:before {
   text-shadow: 0px 0px 1px blue;
   background-size: cover;
   background-position: center;
-
+  position: relative;
 }
 
 .buttonPhoto {
