@@ -85,6 +85,7 @@ li:before {
   top: 0;
   height: 80px;
   width: 100%;
+  box-shadow: 0px 0px 10px 2px black ;
   background-image: url("Images/IMAG000.jpg");
   background-size: contain;
   background-color: blue;
