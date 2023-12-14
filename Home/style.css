@@ -671,9 +671,10 @@ li:before {
   }
   
   .pictures {
-    margin-top: 120px;
+    margin-top: 110px;
     width: 100%;
     display: grid !important;
+    height: 265px;
   }
 
   .stickyHeader {
