@@ -551,7 +551,7 @@ li:before {
 
 @media (min-width: 976px) and (max-width: 1275px) {
   .max, .signUp {
-    width: 100%;
+    width: 90%;
   }
 
   .bottomContainer {
