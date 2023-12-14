@@ -170,7 +170,7 @@ li:before {
 
 .buildingPhoto, .buildingPhoto2 {
   width: 100vw;
-  height: 800px;
+  height: 600px;
   max-width: 1600px;
   background-size:cover; 
   background-position: center;
@@ -211,7 +211,7 @@ li:before {
 
 .bio {
   padding: 30px;
-  font-size: 30px;
+  font-size: 25px;
   margin: 0 auto;
   font-weight: bold;
   font-family: Rajdhani ;
@@ -522,7 +522,7 @@ li:before {
 
   .pictures {
     justify-content:space-evenly;
-    height: 800px;
+    height: 600px;
   }
 
   li:before {
@@ -537,7 +537,7 @@ li:before {
 
   .buildingPhoto, .buildingPhoto2 {
     width: 100vw;
-    height: 800px;
+    height: 600px;
     max-width: 1600px;
     background-position: center;
   }
@@ -572,7 +572,7 @@ li:before {
 
   .buildingPhoto, .buildingPhoto2 {
     width: 100vw;
-    height: 800px;
+    height: 600px;
     max-width: 1600px;
     background-position: center;
   }
