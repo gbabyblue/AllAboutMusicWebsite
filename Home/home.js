@@ -27,6 +27,9 @@ dropDownButton.addEventListener('click', (e) => {
 
 
 
+
+
+
 function fadeIn(elem, interval) {
   let opacity = .1
   let fadeI = setInterval(() => {
@@ -55,8 +58,8 @@ function fadeOut(elem, interval) {
     }, interval)
 }
 
-function fadeInOut(picture) {
-  setInterval((e) => {
+function fadeInOut() {
+  fade = setInterval((e) => {
     fadeOut(document.querySelector('.buildingPhoto'), 20)
     setTimeout((e) => {
       fadeIn(document.querySelector('.buildingPhoto'), 20)
@@ -64,15 +67,17 @@ function fadeInOut(picture) {
   }, 4200)
 }
 
+//fadeInOut()
 
 let picture = document.querySelector('.buildingPhoto');
 
+/** 
 window.addEventListener('focus', function() {
-  /**picture.classList.add('changePicture')**/
-  console.log('focus')
+  picture.classList.add('changePicture')
 });
 
 window.addEventListener('blur', function() {
   picture.classList.remove('changePicture')
-  console.log('blur')
 });
+
+*/
