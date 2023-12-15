@@ -595,7 +595,6 @@ li:before {
     width: 100vw;
     height: 800px;
     max-width: 1600px;
-    background-position: center;
     box-shadow: none;
   }
 }
