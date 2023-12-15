@@ -685,20 +685,31 @@ li:before {
     padding: 10px;
   }
 
-  .bottomNav a, .topNav a {
+  .bottomNav a {
     font-family: 'Cairo', sans-serif;
     color: white;
     padding: 4px;
     font-size: 20px;
   }
 
+  .topNav a {
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    padding: 4px;
+    font-size: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+  }
+
   .topNav {
     display: flex;
+    height: auto;
   }
   
   .pictures {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 0px;
     display: grid !important;
   }
 
