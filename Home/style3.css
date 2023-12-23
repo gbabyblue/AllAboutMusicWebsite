@@ -233,7 +233,7 @@ li:before {
 .bio {
   padding: 10px;
   font-size: 30px;
-  margin: 0 auto;
+  margin: 10px auto;
   font-family: oswald ;
   width: 90%;
 }
@@ -343,7 +343,6 @@ li:before {
   text-align: center;
   color: black;
   font-family: 'Oswald'; 
-  font-style: italic; 
   font-weight: bold;
   font-size: 40px;
   margin: 10px auto;
