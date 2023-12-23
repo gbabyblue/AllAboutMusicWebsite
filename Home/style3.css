@@ -773,7 +773,7 @@ li:before {
 
 @media (max-height: 450px) or (max-width: 810px) {
   .stickyNav a{
-    font-size: 20px;
+    font-size: 25px;
   }
 
 }
