@@ -28,11 +28,9 @@ span {
 
 .primaryHeadline {
   display: grid;
-  font-family: 'Graduate'; 
-  font-style: italic; 
+  font-family: 'Oswald'; 
   font-weight: bold;
   color: white;
-  text-shadow: 0px 4px 10px blue;
   padding: 5px;
   font-size: 30px;
   align-items: center;
@@ -378,9 +376,7 @@ li:before {
 }
 
 .homeAddress {
-  font-family: 'Jockey One', sans-serif;
-  font-family: 'Cairo', sans-serif;
-  font-style: italic;
+  font-family: 'Oswald';
   font-weight: 500;
   font-size: 30px;
   color: white;
