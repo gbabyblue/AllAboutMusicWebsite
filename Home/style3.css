@@ -708,7 +708,7 @@ li:before {
   }
 
   .infoBox {
-    font-size: 23px;
+    font-size: 30px;
     width: 94vw;
     display: flex;
     flex-wrap: wrap;
