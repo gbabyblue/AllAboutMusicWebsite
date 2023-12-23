@@ -161,7 +161,7 @@ li:before {
   font-family: "Oswald";
   color: white;
   padding: 5px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 
@@ -517,7 +517,7 @@ li:before {
   .bottomNav a{
     color: white;
     padding: 4px;
-    font-size: 40px;
+    font-size: 25px;
   }
 
   .section {
