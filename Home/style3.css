@@ -20,13 +20,10 @@ body {
 
 
 span {
-  font-style: italic;
-  font-weight: bold;
   text-shadow: 3px 3px 2px black;
   margin: 10px;
   padding: none;
   margin-right: 2ch;
-  
 }
 
 .primaryHeadline {
@@ -330,7 +327,7 @@ li:before {
 }
 
 .secondaryHeadline {
-  font-family: 'Sarala', sans-serif;
+  font-family: 'Oswald';
   color: black;
   display: grid;
   flex-wrap: wrap;
@@ -555,7 +552,7 @@ li:before {
   }
 
   .max, .signUp {
-    width: 1180px;
+    width: 1050px;
   }
 
   .buildingPhoto, .buildingPhoto2 {
