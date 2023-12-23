@@ -346,7 +346,7 @@ li:before {
   font-style: italic; 
   font-weight: bold;
   font-size: 40px;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .signUp span {
@@ -685,7 +685,6 @@ li:before {
   }
 
   .topNav a {
-    font-family: 'Cairo', sans-serif;
     color: white;
     padding: 4px;
     font-size: 20px;
@@ -695,7 +694,7 @@ li:before {
   }
 
   .topNav {
-    display: flex;
+    /**display: flex;*/
     height: auto;
   }
   
