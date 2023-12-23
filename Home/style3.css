@@ -429,8 +429,6 @@ li:before {
 .dropdown {
   position: relative;
   display: none;
-  height:40px;
-  width: 40px;
 }
 
 .dropdown a:hover {
@@ -714,13 +712,7 @@ li:before {
   }
 
   .stickyHeader {
-    height: 120px;
     width: 100%;
-  }
-
-  .logo {
-    width: 300px;
-    height: 100px;
   }
 
   .infoBox {
@@ -748,15 +740,10 @@ li:before {
     font-size: 30px;/** min(10vw, 50px);**/
   }
 
-  .rightHeader {
-    margin: auto 70px;
-  }
-
-
   .dropdown {
     position: absolute;
     right: 30px;
-    top: 50px;
+    top: 20px;
     display: inline-block;
   }
 
