@@ -252,7 +252,7 @@ li:before {
   position: relative;
   box-shadow: 0px 0px 20px 2px black ;
   width: 45vw;
-  height: 400px;
+  height: 350px;
   max-width: 1100px;
   text-align: center;
   border: 5px solid lightblue;
@@ -525,7 +525,7 @@ li:before {
   }
 
   .homeButton {
-    height: 400px;
+    height: 350px;
     width: 250px;
     margin: 10px;
   }
