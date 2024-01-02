@@ -71,7 +71,7 @@ li:before {
   max-width: 1300px;
   margin: auto auto;
   justify-content: space-evenly;
-  width: auto;
+  width: 95%;
 }
 
 .stickyHeader {
@@ -572,7 +572,7 @@ li:before {
 
 @media (min-width: 976px) and (max-width: 1275px) {
   .max, .signUp {
-    width: 90%;
+    width: 95%;
   }
 
   .topContainer {
