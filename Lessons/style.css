@@ -181,7 +181,7 @@ ul {
 
 
 .primaryHeadline {
-  font-family: 'Oswald'; 
+  font-family: 'eb garamond'; 
   font-weight: bold;
   color: Black;
   font-size: 40px;
@@ -240,7 +240,7 @@ ul li {
 }
 
 .secondaryHeadline {
-  font-family: 'eb garamond', sans-serif;
+  font-family: 'oswald', sans-serif;
   display: grid;
   width: 95%;
   margin: 0 auto;
@@ -624,7 +624,6 @@ ul li {
   .poster {
     width: 80vw;
     height: 80vw;
-
   }
 
 }
