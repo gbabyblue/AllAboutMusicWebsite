@@ -724,7 +724,7 @@ li:before {
 
   .homeButton {
     height: 300px;
-    width: 85vw;
+    width: 90vw;
     margin: 10px;
   }
 
@@ -768,7 +768,11 @@ li:before {
   .poster {
     width: 80vw;
     height: 80vw;
+  }
 
+  span {
+    width:100%;
+    text-align: center;
   }
 
 }
