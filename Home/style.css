@@ -71,7 +71,7 @@ li:before {
   max-width: 1300px;
   margin: auto auto;
   justify-content: space-evenly;
-  width: 95%;
+  width: auto;
 }
 
 .stickyHeader {
@@ -565,7 +565,7 @@ li:before {
   }
 
   .buttonPhoto {
-    padding: 30px;
+    padding: 50px;
   }
 
 }
@@ -712,8 +712,7 @@ li:before {
   }
 
   .infoBox {
-    font-size: 30px;
-    width: 94vw;
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
