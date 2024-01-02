@@ -46,7 +46,7 @@ ul {
   max-width: 1300px;
   margin: auto auto;
   justify-content: space-evenly;
-  width: 95%;
+  width: 100%;
 }
 
 .signUp {
@@ -262,7 +262,7 @@ ul li {
   font-style: italic; 
   text-decoration: underline;
   font-weight: bold;
-  font-family: 'Cairo'; 
+  font-family: 'oswald'; 
   padding: 10px;
   font-size: 20px;
 }
@@ -626,7 +626,9 @@ ul li {
     height: 80vw;
 
   }
+
 }
+
 
 @media (max-height: 450px) or (max-width: 810px) {
   .stickyNav a{
