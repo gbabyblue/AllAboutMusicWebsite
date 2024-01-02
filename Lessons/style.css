@@ -181,7 +181,7 @@ ul {
 
 
 .primaryHeadline {
-  font-family: 'eb garamond'; 
+  font-family: 'oswald'; 
   font-weight: bold;
   color: Black;
   font-size: 40px;
@@ -240,7 +240,7 @@ ul li {
 }
 
 .secondaryHeadline {
-  font-family: 'oswald', sans-serif;
+  font-family: 'eb garamond', sans-serif;
   display: grid;
   width: 95%;
   margin: 0 auto;
