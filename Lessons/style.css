@@ -54,7 +54,7 @@ ul {
   max-width: 1300px;
   margin: auto auto;
   justify-content: space-evenly;
-  width: 95%;
+  width: 100%;
 }
 
 .stickyHeader {
@@ -241,6 +241,7 @@ ul li {
   font-family: 'Oswald', sans-serif;
   display: grid;
   width: 95%;
+  margin: 0 auto;
   /**background-image: url('Images/IMAG000.jpg');*/
   font-size: 10px;
   
@@ -375,6 +376,11 @@ ul li {
   .bottomContainer {
     max-width: 1110px;
     width: 1100px;
+  }
+
+  .secondaryHeadline {
+    width: auto;
+    margin: 0 auto;
   }
 
   .bottomNav a{
@@ -632,7 +638,6 @@ ul li {
   }
 
 }
-
 
 
 @media (max-height: 450px) or (max-width: 810px) {
