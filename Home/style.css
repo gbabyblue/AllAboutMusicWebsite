@@ -71,7 +71,7 @@ li:before {
   max-width: 1300px;
   margin: auto auto;
   justify-content: space-evenly;
-  width: auto;
+  width: 100%;
 }
 
 .stickyHeader {
