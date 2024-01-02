@@ -240,17 +240,13 @@ ul li {
 }
 
 .secondaryHeadline {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'eb garamond', sans-serif;
   display: grid;
   width: 95%;
   margin: 0 auto;
   /**background-image: url('Images/IMAG000.jpg');*/
   font-size: 10px;
-  
 }
-
-
-
 
 
 .quote {
@@ -259,6 +255,7 @@ ul li {
   text-align: center;
   color: white;
   padding: 30px;
+  max-width: 1000px;
 }
 
 .quote span {
@@ -372,7 +369,7 @@ ul li {
   }
 
   .secondaryHeadline {
-    width: auto;
+    width: 850px;
     margin: 0 auto;
   }
 
@@ -629,9 +626,7 @@ ul li {
     height: 80vw;
 
   }
-
 }
-
 
 @media (max-height: 450px) or (max-width: 810px) {
   .stickyNav a{
