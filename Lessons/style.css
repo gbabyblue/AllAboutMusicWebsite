@@ -43,7 +43,7 @@ ul {
 
 .max {
   display: flex;
-  max-width: 1300px;
+  max-width: 1050px;
   margin: auto auto;
   justify-content: space-evenly;
   width: 95%;
