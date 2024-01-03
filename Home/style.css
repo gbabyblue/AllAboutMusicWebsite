@@ -490,6 +490,14 @@ li:before {
   animation: rotateY3 16s linear infinite forwards;
 }
 
+@keyframes fade {
+  0% {opacity: 0}
+  100%{opacity:1}
+}
+
+.fade {
+  animation: fade 4s linear forwards;
+}
 
 
 /***************  MEDIA QUERIES  ***************/
