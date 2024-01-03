@@ -108,6 +108,48 @@ ul {
 }
 
 
+.pictures {
+  height: 300px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.buildingPhoto {
+  width: 100vw;
+  height: 300px;
+  max-width: 1600px;
+  background-size:cover; 
+  background-position: center;
+  background-position-x: 400px;
+  background-repeat: no-repeat;
+  max-height: 73vh;
+  --mask: linear-gradient(to left, 
+      rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 70%, 
+      rgba(0,0,0, 0) 100%, rgba(0,0,0, 0) 0
+  ) 100% 100% / 50% 100% no-repeat;
+  -webkit-mask: var(--mask); 
+  mask: var(--mask);
+}
+
+.title {
+  font-size: 100px;
+  font-family: 'oswald';
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  height: 300px;
+  position: absolute;
+  width: 500px;
+  top: 0;
+  left: 5%;
+}
+
+.buildingPhoto {
+  background-image: url(Images/AAMOutside.jpg);
+}
+
+
 /***************  TOP NAVIGATION  ***************/
 
 .stickyNav {
@@ -177,6 +219,26 @@ ul {
   padding: 30px;
   margin: 0 auto;
   justify-items: center;
+  position: relative;
+  display: grid;
+}
+
+.divider {
+  height: 40px;
+  background-color: darkblue;
+  position: absolute;
+  top: 55%;
+  width: 1050px;
+  max-width: 100vw;
+  z-index: -1;
+  justify-self: center;
+  /**
+  width: 350px;
+  background-image: url(Images/IMAG000.jpg);
+  background-size: contain;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius:  20px;
+  */
 }
 
 
@@ -261,11 +323,11 @@ ul li {
 .quote span {
   font-style: italic; 
   text-decoration: underline;
-  font-weight: bold;
   font-family: 'oswald'; 
   padding: 10px;
   font-size: 20px;
 }
+
 
 
 
@@ -402,9 +464,15 @@ ul li {
   }
 
   .pictures {
-    justify-content:space-evenly;
-    height: 800px;
+    height: 400px;
+    justify-content: center;
   }
+
+  .title {
+    top: 10%
+  }
+ 
+
 
   li:before {
     content: "";
@@ -418,7 +486,7 @@ ul li {
 
   .buildingPhoto, .buildingPhoto2 {
     width: 100vw;
-    height: 800px;
+    height: 400px;
     max-width: 1300px;
     /** box-shadow: 0 0 30px 30px black inset; */
   }
@@ -443,11 +511,10 @@ ul li {
     width: 954px;
   }
 
-  .buildingPhoto, .buildingPhoto2 {
+  .buildingPhoto{
     width: 100vw;
-    height: 800px;
+    height: 400px;
     max-width: 1600px;
-    box-shadow: none;
   }
 }
 
@@ -482,7 +549,6 @@ ul li {
 
 
   .pictures {
-    margin-top: 80px;
     height: 50vh;
   }
   
@@ -517,12 +583,16 @@ ul li {
 
   .buildingPhoto, .buildingPhoto2 {
     width: 100vw;
-    height: 230px;
+    height: 400px;
   }
 
   .pictures {
-    height: 230px;
+    height: 300px;
     width: 100vw;
+  }
+
+  .title {
+    top: 0;
   }
 }
 
@@ -605,8 +675,16 @@ ul li {
 
   .buildingPhoto, .buildingPhoto2 {
     width: 100vw;
-    height: 80vw;
+    height: 400px;
     box-shadow: none;
+    background-position-x: 100px;
+    /**display: none !important;*/
+  }
+  
+  .title {
+    width: 50%;
+    left: 0;
+    top: 0
   }
 
   .stickyNav {
@@ -624,6 +702,7 @@ ul li {
   .poster {
     width: 80vw;
     height: 80vw;
+
   }
 
 }
