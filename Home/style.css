@@ -81,8 +81,8 @@ li:before {
   height: 80px;
   width: 100%;
   background-image: url("Images/IMAG000.jpg");
-  background-size: contain;
-  background-color: blue;
+  /**background-size: contain;**/
+  background-color: darkblue;
   z-index:99;
 }
 
@@ -369,13 +369,13 @@ li:before {
   position: fixed;
   bottom: 0;
   height: 12vh;  
-  max-height: 15vh;
+  max-height: 80px;
   width: 100%;
   align-items: center;
   background-image: url("Images/IMAG000.jpg");
-  background-size: contain;
+  /**background-size: contain;**/
   box-shadow: 0px 0px 10px 2px black ;
-  background-color: blue;
+  background-color: darkblue;
   margin: 0 auto;
 }
 
