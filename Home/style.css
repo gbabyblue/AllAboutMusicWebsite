@@ -693,7 +693,7 @@ li:before {
     border-radius: 20px;
     overflow: hidden;
     border-color: black;
-    border-color: deepskyblue;
+    border-color: white;
   }
 
   .homeButton a {
@@ -798,7 +798,7 @@ li:before {
     margin: 10px;
     border-radius: 20px;
     overflow: hidden;
-    border-color: deepskyblue;
+    border-color: white;
     ;
   }
 
