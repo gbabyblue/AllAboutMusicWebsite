@@ -300,6 +300,7 @@ li:before {
   background-size: contain;
   border-radius: 20px;
   min-width: fit-content;
+  align-self: start;
 }
 
 .homeButton:hover {
@@ -774,7 +775,9 @@ li:before {
 @media (max-height: 550px) {
   .wrapper {
     max-width: 100%;
+    display: flex;
   }
+
   .myDropdown a {
     font-size: 20px ;
   }
@@ -802,10 +805,9 @@ li:before {
     ;
   }
 
-
-
   .description {
-    width: 35vw;
+    width: 40vw;
+    margin: auto;
   }
 
 
