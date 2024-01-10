@@ -772,10 +772,11 @@ li:before {
     width: 90vw;
     text-align: center;
     background-color: darkblue;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 40px;
     border-radius: 20px;
     padding: 10px;
+    top: auto;
   }
 
 }
