@@ -543,7 +543,7 @@ li:before {
 }
 
 .fade {
-  animation: fade 1.5s linear forwards;
+  animation: fade 1 linear forwards;
 }
 
 
