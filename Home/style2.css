@@ -713,7 +713,7 @@ li:before {
     padding: 25px;
     width: 100%;
     border-radius: none;
-    align-self: end;
+    /**align-self: end;**/
     border: none;
     display: grid;
   }
