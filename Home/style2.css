@@ -902,6 +902,10 @@ li:before {
     display: none;
   }
 
+  .invert {
+    font-size: 40px !important;
+  }
+
   
 }
 
