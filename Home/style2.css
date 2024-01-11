@@ -81,7 +81,7 @@ li:before {
   top: 0;
   height: 80px;
   width: 100%;
-  background-image: url("Images/IMAG000.jpg");
+  /**background-image: url("Images/IMAG000.jpg");*/
   /**background-size: contain;**/
   background-color: darkblue;
   z-index:99;
