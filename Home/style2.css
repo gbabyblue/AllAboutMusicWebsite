@@ -809,6 +809,10 @@ li:before {
     font-size: 30px;
   }
 
+  .invert {
+    font-size: 25px;
+  }
+
 }
 
 
