@@ -230,7 +230,7 @@ li:before {
 
 .bio {
   padding: 10px;
-  font-size: 30px;
+  font-size: 50px;
   margin: 10px auto;
   font-family: oswald;
   width: 90%;
@@ -666,7 +666,7 @@ li:before {
   .max, .signUp {
     width: auto;
     max-width: 100vw;
-    font-size: 30px;
+    font-size: 40px;
   }
   .stickyFooter div {
     font-size: 15px;
@@ -806,6 +806,7 @@ li:before {
     padding: 10px;
     top: auto;
     color: black;
+    font-size: 30px;
   }
 
 }
