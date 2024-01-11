@@ -613,6 +613,7 @@ li:before {
     height: 800px;
     /**max-width: 1300px;**/
     /** box-shadow: 0 0 30px 30px black inset; */
+    /**border-radius: 0px 0px 20% 20%*/
   }
 
   .sideButton {
@@ -842,8 +843,7 @@ li:before {
 
 
   .pictures {
-    margin-top: 80px;
-    height: 45vh;
+    height: 400px;
   }
 
   .wrapper {
@@ -886,11 +886,11 @@ li:before {
 
   .buildingPhoto, .buildingPhoto2 {
     width: 100vw;
-    height: 230px;
+    height: 400px;
   }
 
   .pictures {
-    height: 230px;
+    height: 400px;
     width: 100%;
   }
 
@@ -917,5 +917,11 @@ li:before {
 
 body{
   background-color: black;
+}
+
+@media (min-width: 1600px) {
+  .buildingPhoto {
+    border-radius: 5vw
+  }
 }
 
