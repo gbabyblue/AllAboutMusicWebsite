@@ -213,7 +213,7 @@ li:before {
   width: 100%;
   justify-content:space-evenly;
   overflow: hidden;
-  background-color: black;
+  background-color: white;
   max-height: 73vh;
 
   /**
