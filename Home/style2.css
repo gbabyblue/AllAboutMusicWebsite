@@ -24,7 +24,6 @@ body {
 span {
   margin: 10px;
   padding: none;
-  margin-right: 2ch;
 }
 
 .primaryHeadline {
@@ -59,7 +58,7 @@ span {
 
 li:before {
   content: "";
-  margin-left: 5vw;
+
   text-decoration: none;
 }
 
@@ -132,10 +131,9 @@ li:before {
 .bottomNav {
   display: flex;
   flex-wrap: wrap;
-  margin: 20px auto 12vh auto;
+  margin: 20px auto 20px auto;
   justify-content: space-evenly;
   width: 100%;
-  height: 100px;
   max-width: 1100px;
   align-items: center;
 }
@@ -158,7 +156,6 @@ li:before {
 
 .bottomNav a, .topNav a {
   font-family: "Oswald";
-  color: white;
   padding: 5px;
   font-size: 25px;
 }
@@ -171,16 +168,17 @@ li:before {
 .poster {
   display: grid;
   position: relative;
-  width: 400px;
-  height: 400px;
-  background-image: url(Images/Storefront.jpg); 
+  width:45vw;
+  height:45vw;
   background-size:cover; 
   background-position: center;
   background-repeat: no-repeat;
-  background-position-y: 0;
   margin: 0 auto;
-  border-radius: 50%;
   align-self: center;
+  justify-self: center;
+  left: 0px;
+  max-width: 550px;
+  max-height: 550px;
 }
 
 
@@ -286,7 +284,7 @@ li:before {
   background-size: contain;
   border-radius: 20px;
   min-width: fit-content;
-  align-self: start;
+  align-self: center;
   display: none;
 }
 
@@ -331,7 +329,8 @@ li:before {
   padding: 20px;
   text-align: center;
   width: 80%;
-  color: white
+  color: white;
+  font-size: 30px;
 }
 
 .wrapper {
@@ -413,9 +412,9 @@ li:before {
 
 .stickyFooter {
   display: grid;
-  position: fixed;
+  position: relative;
   bottom: 0;
-  height: 12vh;  
+  height: 80px;  
   max-height: 80px;
   width: 100%;
   align-items: center;
@@ -429,7 +428,7 @@ li:before {
 .homeAddress {
   font-family: 'Oswald';
   font-weight: 500;
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   max-width: 80%;
 }
@@ -532,8 +531,8 @@ li:before {
 .animate {
   width: 100%;
   height: 100%;
-  box-shadow: 0px 0px 200px 2px blue;
-  border: 25vw ridge black;
+  box-shadow: 0px 0px 20px 2px blue;
+  border: 200px ridge black;
   animation: rotateY3 16s linear infinite forwards;
 }
 
@@ -603,7 +602,7 @@ li:before {
 
   li:before {
     content: "";
-    margin-left: 2ch;
+
     text-decoration: none;
   }
 
@@ -665,18 +664,25 @@ li:before {
 @media (max-width: 749px) {
   .max, .signUp {
     width: auto;
-    max-width: 100vw;
-    font-size: 40px;
+    max-width: 90vw;
+    font-size: 35px;
   }
   .stickyFooter div {
     font-size: 15px;
     padding: 10px;
+  }
+  .stickyFooter {
+    position: fixed;
   }
 
   .bottomNav a {
     color: black;
     padding: 4px;
     font-size: 25px;
+  }
+
+  .bottomNav {
+    margin-bottom: 85px;
   }
 
   .topNav a {
@@ -772,8 +778,11 @@ li:before {
   }
   
   .poster {
-    width: 80vw;
-    height: 80vw;
+    position: relative;
+    display: grid;
+    width: 95vw;
+    height: 95vw;
+    align-content: start;
   }
 
   span {
@@ -811,6 +820,18 @@ li:before {
 
   .invert {
     font-size: 25px;
+  }
+
+  .animate {
+    border-width: 20vw;
+  }
+
+  .dualPic {
+    display: grid !important;
+  }
+
+  .homeAddress, .primaryHeadline {
+    font-size: 30px;
   }
 
 }
@@ -861,12 +882,13 @@ li:before {
   }
 
   .buttonPhoto {
-    padding: 25px;
+    padding: 25px 0px 25px 0px;
     width: 100%;
-    border-radius: none;
+    border-radius: 0px;
     align-self: center;
     border: none;
     display: grid;
+    left: none;
   }
 
   .sideContainer {
