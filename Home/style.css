@@ -471,7 +471,6 @@ li:before {
   background-color: white;
   border-radius: 20px;
   border-top-right-radius: 0;
-  right: -13px;
   overflow: hidden;
   z-index: 1000;
 }
@@ -483,7 +482,6 @@ li:before {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
-  margin-left: 20px
 }
 
 .myDropdown a {
@@ -766,6 +764,10 @@ li:before {
     overflow: hidden;
   }
 
+  .rightHeader {
+    width: 10%
+  }
+
   .homeButton a {
     display: grid;
     width: 100%;
@@ -778,7 +780,6 @@ li:before {
 
   .dropdown {
     position: absolute;
-    right: 30px;
     top: 20px;
     display: inline-block;
   }
