@@ -174,6 +174,10 @@ li:before {
 }
 
 
+.primaryHeadline a {
+  text-decoration: none;
+  color: white;
+}
 
 
 /***************  Top Container Elements  ***************/
