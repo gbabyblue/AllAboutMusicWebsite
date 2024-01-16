@@ -195,6 +195,7 @@ li:before {
   justify-self: center;
   max-width: 550px;
   max-height: 550px;
+  margin: 10px;
 }
 
 
@@ -919,6 +920,7 @@ li:before {
     width: 95vw;
     height: 95vw;
     align-content: start;
+    margin: 10px 0px 10px 0px;
   }
 
   span {
