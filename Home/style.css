@@ -837,7 +837,11 @@ li:before {
   }
 
   .headerTag {
-    display: block;
+    display: none;
+  }
+
+  .leftHeader {
+    margin-left: auto;
   }
 
   .infoBox {
@@ -870,7 +874,11 @@ li:before {
   }
 
   .rightHeader {
-    width: 17%
+    position: absolute;
+    right: 10px;
+    height: 46px;
+    width: 46px;
+    top: 20px;
   }
 
   .homeButton a {
@@ -884,8 +892,6 @@ li:before {
   }
 
   .dropdown {
-    position: absolute;
-    top: 20px;
     display: inline-block;
   }
 
