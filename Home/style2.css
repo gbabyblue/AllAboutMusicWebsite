@@ -2,8 +2,9 @@
 
 body {
   margin: 0 auto;
-  width: auto;
+  width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 
@@ -16,7 +17,7 @@ body {
   /**max-width: 786px; **/
   height: auto;
   width: auto;
-  margin-top: 70px;
+  margin-top: 80px;
   overflow: hidden;
 }
 
@@ -68,7 +69,7 @@ li:before {
 
 .max, .signUp {
   display: flex;
-  max-width: 1300px;
+  max-width: 700px;
   margin: auto auto;
   justify-content: space-evenly;
   width: 95%;
@@ -80,8 +81,8 @@ li:before {
   top: 0;
   height: 80px;
   width: 100%;
-  /**background-image: url("Images/IMAG000.jpg");*/
-  /**background-size: contain;**/
+  background-image: url("Images/IMAG000.jpg");
+  background-size: contain;
   background-color: darkblue;
   z-index:99;
 }
@@ -91,13 +92,25 @@ li:before {
 }
 
 .centerHeader {
-  margin: auto auto;
-  justify-content: space-evenly;
+  margin: auto 0;
   width: 100%;
+  max-width: 600px;
 }
 
 .leftHeader {
-  margin: 0 auto ;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 5px;
+  text-align:center;
+}
+
+.headerTag {
+  color: white;
+  font-family: oswald, sans-serif;
+  font-size: 15px;
+  margin-left: 1vw;
+  display: none;
 }
 
 .logo {
@@ -114,8 +127,9 @@ li:before {
 .stickyNav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: max-content;
+  width: 100%;
 }
 
 .stickyNav a {
@@ -139,8 +153,7 @@ li:before {
 }
 
 .bottomNav a {
-  font-family: 'Cairo', sans-serif;
-  color: black;
+  color: white;
   padding: 5px;
   font-size: 30px;
 }
@@ -161,6 +174,10 @@ li:before {
 }
 
 
+.primaryHeadline a {
+  text-decoration: none;
+  color: white;
+}
 
 
 /***************  Top Container Elements  ***************/
@@ -168,30 +185,30 @@ li:before {
 .poster {
   display: grid;
   position: relative;
-  width:45vw;
-  height:45vw;
+  width:30vw;
+  height:30vw;
   background-size:cover; 
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto;
   align-self: center;
   justify-self: center;
-  left: 0px;
   max-width: 550px;
   max-height: 550px;
+  margin: 10px;
 }
 
 
 
 .buildingPhoto, .buildingPhoto2 {
-  width: 100vw;
+  width: 100%;
   height: 800px;
   /**max-width: 1600px;**/
   background-size:cover; 
   background-position: center;
   background-position-y: 0;
   background-repeat: no-repeat;
-  max-height: 73vh;;
+  max-height: 80vh;;
 }
 
 .buildingPhoto {
@@ -209,10 +226,9 @@ li:before {
 .pictures {
   margin: 0 auto;
   width: 100%;
-  justify-content:space-evenly;
   overflow: hidden;
   background-color: white;
-  max-height: 73vh;
+  max-height: 80vh;
 
   /**
   --mask: linear-gradient(to right, 
@@ -232,6 +248,18 @@ li:before {
   margin: 10px auto;
   font-family: oswald;
   width: 90%;
+}
+
+.dualPic {
+  position: relative;
+  display: flex; 
+  align-items: center; 
+  margin: 0 auto; 
+  background-color: darkblue; 
+  width:100%; 
+  justify-content: center; 
+  padding-top: 0px; 
+  padding-bottom: 60px
 }
 
 
@@ -284,7 +312,7 @@ li:before {
   background-size: contain;
   border-radius: 20px;
   min-width: fit-content;
-  align-self: start;
+  align-self: end;
   display: none;
 }
 
@@ -402,6 +430,8 @@ li:before {
 
 .invert {
   color: white;
+  font-size: 60px;
+  text-align: center;
 }
 
 
@@ -418,9 +448,11 @@ li:before {
   max-height: 80px;
   width: 100%;
   align-items: center;
-  background-image: url("Images/IMAG000.jpg");
+  /**background-image: url("Images/IMAG000.jpg");**/
   /**background-size: contain;**/
-  box-shadow: 0px 0px 10px 2px black ;
+  /**box-shadow: 0px 0px 10px 2px black ;**/
+  background-image: url("Images/IMAG000.jpg");
+  background-size: contain;
   background-color: darkblue;
   margin: 0 auto;
 }
@@ -444,7 +476,6 @@ li:before {
   background-color: white;
   border-radius: 20px;
   border-top-right-radius: 0;
-  right: -13px;
   overflow: hidden;
   z-index: 1000;
 }
@@ -456,7 +487,6 @@ li:before {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
-  margin-left: 20px
 }
 
 .myDropdown a {
@@ -569,7 +599,7 @@ li:before {
   }
 
   .bottomNav a{
-    color: black;
+    color: white;
     padding: 4px;
     font-size: 25px;
   }
@@ -579,8 +609,8 @@ li:before {
   }
 
   .homeButton {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
   }
 
   .homeButton a {
@@ -616,14 +646,14 @@ li:before {
     /**max-width: 1300px;**/
     /** box-shadow: 0 0 30px 30px black inset; */
     /**border-radius: 0px 0px 20% 20%*/
+    min-height: 500px;
   }
+  
 
   .sideButton {
     font-size: 40px;
     padding: 50px 0px 50px 0px;
   }
-
-
 }
 
 @media (min-width: 976px) and (max-width: 1275px) {
@@ -645,7 +675,7 @@ li:before {
 
 
   .buildingPhoto, .buildingPhoto2 {
-    width: 100vw;
+    width: 100%;
     height: 800px;
     max-width: 1600px;
     box-shadow: none;
@@ -661,184 +691,9 @@ li:before {
 
 
 
-@media (max-width: 749px) {
-  .max, .signUp {
-    width: auto;
-    max-width: 90vw;
-    font-size: 35px;
-  }
-  .stickyFooter div {
-    font-size: 15px;
-    padding: 10px;
-  }
-  .stickyFooter {
-    position: fixed;
-  }
-
-  .bottomNav a {
-    color: black;
-    padding: 4px;
-    font-size: 25px;
-  }
-
-  .bottomNav {
-    margin-bottom: 85px;
-  }
-
-  .topNav a {
-    color: white;
-    padding: 4px;
-    font-size: 20px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    text-decoration: none;
-  }
-
-  .topNav {
-    /**display: flex;*/
-    height: auto;
-  }
-  
-  .pictures {
-    width: 100%;
-    display: grid !important;
-  }
-
-  .stickyHeader {
-    width: 100%;
-  }
-
-  .infoBox {
-    width: 80vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-
-  .buttonPhoto {
-    padding: 25px;
-    width: 100%;
-    border-radius: none;
-    /**align-self: end;**/
-    border: none;
-    display: grid;
-  }
-
-  .sideButton {
-    display: none;
-  }
-
-  .homeButton {
-    height: 375px;
-    width: 100%;
-    margin: 10px;
-    margin: 0 auto;
-    border-radius: 40px;
-    overflow: hidden;
-  }
-
-  .homeButton a {
-    display: grid;
-    width: 100%;
-    height: 375px;
-    width: 100%;
-    border-radius: 40px;
-    font-size: 30px;/** min(10vw, 50px);**/
-    justify-items: center;
-  }
-
-  .dropdown {
-    position: absolute;
-    right: 30px;
-    top: 20px;
-    display: inline-block;
-  }
-
-  .dropdownBtn {
-    width: 40px;
-    height: 40px;
-  }
-
-  .buildingPhoto, .buildingPhoto2 {
-    width: 100vw;
-    height: 100vw;
-    box-shadow: none;
-  }
-
-  .stickyNav {
-    display: none;
-  }
-
-  .centerHeader {
-    display: none;
-  }
-
-  .bio h1 {
-    font-size: 1.5em;
-  }
-  
-  .poster {
-    position: relative;
-    display: grid;
-    width: 90vw;
-    height: 90vw;
-    align-content: start;
-  }
-
-  span {
-    width:100%;
-    text-align: center;
-  }
-
-  /**
-  .description {
-    display: none;
-  }
-  */
-
-  .wrapper {
-    margin: 0 auto;
-    display: grid;
-    width: 100%;
-    justify-content: center;
-    background-image: none;
-    background-color: transparent;
-  }
-
-  .description {
-    width: 90vw;
-    text-align: center;
-    background-color: transparent;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    border-radius: 20px;
-    padding: 10px;
-    top: auto;
-    color: black;
-    font-size: 30px;
-  }
-
-  .invert {
-    font-size: 25px;
-  }
-
-  .animate {
-    border-width: 20vw;
-  }
-
-  .dualPic {
-    display: grid !important;
-  }
-
-  .homeAddress, .primaryHeadline {
-    font-size: 30px;
-  }
-
-}
 
 
 @media (max-height: 550px) {
-
   .myDropdown a {
     font-size: 20px ;
   }
@@ -872,6 +727,7 @@ li:before {
 
   .pictures {
     height: 400px;
+    max-height: none;
   }
 
   .wrapper {
@@ -885,7 +741,6 @@ li:before {
     padding: 25px 0px 25px 0px;
     width: 100%;
     border-radius: 0px;
-    align-self: start;
     border: none;
     display: grid;
     left: none;
@@ -912,11 +767,11 @@ li:before {
 
   .buildingPhoto, .buildingPhoto2 {
     width: 100vw;
-    height: 400px;
+    height: 100vw;
   }
 
   .pictures {
-    height: 400px;
+    height: auto;
     width: 100%;
   }
 
@@ -927,22 +782,229 @@ li:before {
   .invert {
     font-size: 40px !important;
   }
-
-  
 }
 
 
+@media (max-width: 749px) {
+  .max, .signUp {
+    width: auto;
+    max-width: 90vw;
+    font-size: 35px;
+  }
+  .stickyFooter div {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .stickyFooter {
+    position: fixed;
+    height: 120px;
+    max-height: 120px;
+  }
+
+  .bottomNav a {
+    color: black;
+    padding: 4px;
+    font-size: 25px;
+  }
+
+  .bottomNav {
+    margin-bottom: 125px;
+  }
+
+  .topNav a {
+    color: white;
+    padding: 4px;
+    font-size: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+  }
+
+  .topNav {
+    /**display: flex;*/
+    height: auto;
+  }
+  
+  .pictures {
+    width: 100%;
+    display: grid !important;
+    height: 70vw;
+    background-color: gainsboro;
+  }
+
+  .stickyHeader {
+    width: 100%;
+  }
+
+  .headerTag {
+    display: none;
+  }
+
+  .leftHeader {
+    margin-left: auto;
+  }
+
+  .infoBox {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .buttonPhoto {
+    padding: 25px;
+    width: 100%;
+    border-radius: none;
+    /**align-self: end;**/
+    border: none;
+    display: grid;
+  }
+
+  .sideButton {
+    display: none;
+  }
+
+  .homeButton {
+    height: 375px;
+    width: 100%;
+    margin: 10px;
+    margin: 0 auto;
+    border-radius: 40px;
+    overflow: hidden;
+  }
+
+  .rightHeader {
+    position: absolute;
+    right: 10px;
+    height: 46px;
+    width: 46px;
+    top: 20px;
+  }
+
+  .homeButton a {
+    display: grid;
+    width: 100%;
+    height: 375px;
+    width: 100%;
+    border-radius: 40px;
+    font-size: 30px;/** min(10vw, 50px);**/
+    justify-items: center;
+  }
+
+  .dropdown {
+    display: inline-block;
+  }
+
+  .dropdownBtn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .buildingPhoto, .buildingPhoto2 {
+    width: 100%;
+    height: 100vw;
+    box-shadow: none;
+    background-image: url('Images/posterMobile.jpg');
+    background-size: contain;
+  }
+
+  .stickyNav {
+    display: none;
+  }
+
+  .centerHeader {
+    display: none;
+  }
+
+  .bio h1 {
+    font-size: 1.5em;
+  }
+  
+  .poster {
+    position: relative;
+    display: grid;
+    width: 95vw;
+    height: 95vw;
+    align-content: start;
+    margin: 10px 0px 10px 0px;
+  }
+
+  span {
+    width:100%;
+    text-align: center;
+  }
+
+  /**
+  .description {
+    display: none;
+  }
+  */
+  .dualPic {
+    display: grid;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    background-image: none;
+    background-color: transparent;
+  }
+
+  .description {
+    width: 90vw;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    top: auto;
+    color: black;
+    font-size: 30px;
+  }
+
+  .invert {
+    font-size: 40px;
+  }
+
+  .animate {
+    border-width: 20vw;
+  }
+}
 
 @media (max-height: 450px) or (max-width: 810px) {
   .stickyNav a{
     font-size: 25px;
   }
+}
 
+@media (min-width: 1043px) {
+  .headerTag {
+    display: block;
+    font-size: 20px;
+  }
 }
 
 
 
+@media (max-width:749px) and (max-height:647px) {
+  .buildingPhoto {
+    background-image: url('Images/poster.jpg');
+    background-size: cover;
+    height: 100vw;
+  }
+
+  .pictures {
+    height: auto;
+  }
+  .stickyFooter {
+    height: 80px;
+  }
+}
+
 
 body{
-  background-color: white;
+  background-color: gainsboro;
 }
