@@ -5,6 +5,21 @@ body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  background-color: black;
+}
+
+* {
+  color: white
+}
+.backdrop {
+  width: 100%; 
+  height: 100%; 
+  position: fixed; 
+  top: 80px;
+  background-image: url('Images/poster.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: .1;
 }
 
 
@@ -69,7 +84,7 @@ li:before {
 
 .max, .signUp {
   display: flex;
-  max-width: 700px;
+  max-width: 1100px;
   margin: auto auto;
   justify-content: space-evenly;
   width: 95%;
@@ -199,36 +214,23 @@ li:before {
 }
 
 
-
-.buildingPhoto, .buildingPhoto2 {
+.banner {
+  justify-self: center;
+  max-width: auto;
+  height: auto;
   width: 100%;
-  height: 800px;
-  /**max-width: 1600px;**/
-  background-size:cover; 
-  background-position: center;
-  background-position-y: 0;
-  background-repeat: no-repeat;
-  max-height: 80vh;;
+  content:  url('Images/poster.jpg');
+  max-height: 600px;
+  max-width: 1600px;
 }
 
-.buildingPhoto {
-  background-image: url(Images/poster.jpg);
-}
-
-.changePicture {
-  animation: changePicture2 8s ease-in-out infinite alternate;
-}
-
-.buildingPhoto2 {
-  background-image: url(Images/inside.jpeg);
-}
 
 .pictures {
   margin: 0 auto;
   width: 100%;
+  height:auto;
   overflow: hidden;
-  background-color: white;
-  max-height: 80vh;
+  background-color: black;
 
   /**
   --mask: linear-gradient(to right, 
@@ -243,11 +245,35 @@ li:before {
 
 
 .bio {
-  padding: 10px;
-  font-size: 40px;
+  font-size: 30px;
   margin: 10px auto;
   font-family: oswald;
-  width: 90%;
+  max-width: 1100px;
+  text-align: center;
+  justify-self: center;
+}
+
+
+.bio span {
+  margin: 0px;
+}
+
+.bioContainer2, .bioContainer2 p {
+  color: black;
+  background-color: whitesmoke;
+}
+
+.bioContainer1, .bioContainer1 p {
+  background-color: darkblue;
+  color: white;
+}
+
+.bioContainer1, .bioContainer2 {
+  position: relative; 
+  display: grid; 
+  width: 100%;
+  min-height: 200px;
+  align-content: center;
 }
 
 .dualPic {
@@ -255,7 +281,7 @@ li:before {
   display: flex; 
   align-items: center; 
   margin: 0 auto; 
-  background-color: darkblue; 
+  background-color: transparent; 
   width:100%; 
   justify-content: center; 
   padding-top: 0px; 
@@ -627,28 +653,16 @@ li:before {
 
   .pictures {
     justify-content:space-evenly;
-    height: 800px;
   }
 
   li:before {
     content: "";
-
     text-decoration: none;
   }
 
   .max, .signUp {
     width: 1050px;
   }
-
-  .buildingPhoto, .buildingPhoto2 {
-    width: 100%;
-    height: 800px;
-    /**max-width: 1300px;**/
-    /** box-shadow: 0 0 30px 30px black inset; */
-    /**border-radius: 0px 0px 20% 20%*/
-    min-height: 500px;
-  }
-  
 
   .sideButton {
     font-size: 40px;
@@ -673,17 +687,10 @@ li:before {
     font-size: 30px;
   }
 
-
-  .buildingPhoto, .buildingPhoto2 {
-    width: 100%;
-    height: 800px;
-    max-width: 1600px;
-    box-shadow: none;
-  }
 }
 
 @media (max-width: 1276px) {
-  .buildingPhoto {
+  .banner {
     box-shadow: none;
   } 
 }
@@ -725,11 +732,6 @@ li:before {
   }
 
 
-  .pictures {
-    height: 400px;
-    max-height: none;
-  }
-
   .wrapper {
     margin: 0px auto 40px auto;
     background-image: none;
@@ -765,15 +767,6 @@ li:before {
     top: 15px;
   }
 
-  .buildingPhoto, .buildingPhoto2 {
-    width: 100vw;
-    height: 100vw;
-  }
-
-  .pictures {
-    height: auto;
-    width: 100%;
-  }
 
   .sideButton {
     display: none;
@@ -823,13 +816,6 @@ li:before {
   .topNav {
     /**display: flex;*/
     height: auto;
-  }
-  
-  .pictures {
-    width: 100%;
-    display: grid !important;
-    height: 70vw;
-    background-color: gainsboro;
   }
 
   .stickyHeader {
@@ -900,12 +886,8 @@ li:before {
     height: 40px;
   }
 
-  .buildingPhoto, .buildingPhoto2 {
-    width: 100%;
-    height: 100vw;
-    box-shadow: none;
-    background-image: url('Images/posterMobile.jpg');
-    background-size: contain;
+  .banner {
+    content:  url('Images/posterMobile.jpg');
   }
 
   .stickyNav {
@@ -966,7 +948,7 @@ li:before {
   }
 
   .invert {
-    font-size: 40px;
+    font-size: 60px;
   }
 
   .animate {
@@ -990,21 +972,12 @@ li:before {
 
 
 @media (max-width:749px) and (max-height:647px) {
-  .buildingPhoto {
-    background-image: url('Images/poster.jpg');
+  .banner {
+    content:  url('Images/poster.jpg');
     background-size: cover;
-    height: 100vw;
   }
 
-  .pictures {
-    height: auto;
-  }
   .stickyFooter {
     height: 80px;
   }
-}
-
-
-body{
-  background-color: gainsboro;
 }
