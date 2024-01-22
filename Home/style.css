@@ -16,10 +16,10 @@ body {
   height: 100%; 
   position: fixed; 
   top: 80px;
-  background-image: url('Images/poster.jpg');
+  background-image: url('Images/posterBackdrop.jpg');
   background-size: cover;
   background-position: center;
-  opacity: .1;
+  opacity: .42;
 }
 
 
@@ -260,8 +260,8 @@ li:before {
 }
 
 .bioContainer2, .bioContainer2 p {
-  color: black;
-  background-color: whitesmoke;
+  color: white;
+
 }
 
 .bioContainer1, .bioContainer1 p {
@@ -281,11 +281,11 @@ li:before {
   position: relative;
   display: flex; 
   align-items: center; 
-  margin: 40px auto; 
+  margin: 0 auto; 
   background-color: transparent; 
   width:100%; 
   justify-content: center; 
-  padding-top: 0px; 
+  padding: 40px 0px;
   /**padding-bottom: 60px*/
 }
 
@@ -459,6 +459,7 @@ li:before {
   color: white;
   font-size: 60px;
   text-align: center;
+  width: 100vw;
 }
 
 
@@ -753,6 +754,10 @@ li:before {
     background-color: transparent;
   }
 
+  .sideContainer {
+    width: 100%;
+  }
+
   .stickyHeader {
     height: 80px;
     width: 100%;
@@ -923,8 +928,9 @@ li:before {
   }
   */
   .dualPic {
-    margin: 0px auto 40px auto;
+    margin: 0px auto;
     display: grid;
+    padding: 80px 0px;
   }
 
   .wrapper {
@@ -934,6 +940,7 @@ li:before {
     justify-content: center;
     background-image: none;
     background-color: transparent;
+    border-radius: 0px;
   }
 
   .description {
@@ -949,10 +956,8 @@ li:before {
   }
 
   .sideContainer {
-
-    border-radius: 20px;
+    width: 100%;
   }
-
   .invert {
     font-size: 60px;
   }
