@@ -251,6 +251,7 @@ li:before {
   max-width: 1100px;
   text-align: center;
   justify-self: center;
+  width: 90%;
 }
 
 
@@ -280,7 +281,7 @@ li:before {
   position: relative;
   display: flex; 
   align-items: center; 
-  margin: 0 auto; 
+  margin: 40px auto; 
   background-color: transparent; 
   width:100%; 
   justify-content: center; 
@@ -922,11 +923,12 @@ li:before {
   }
   */
   .dualPic {
+    margin: 0px auto 40px auto;
     display: grid;
   }
 
   .wrapper {
-    margin: 0 auto;
+    /**margin: 0 auto;**/
     display: grid;
     width: 100%;
     justify-content: center;
@@ -938,12 +940,17 @@ li:before {
     width: 90vw;
     text-align: center;
     background-color: transparent;
-    margin-top: 0px;
-    margin-bottom: 40px;
+    margin-top: 10px;
     border-radius: 20px;
     padding: 10px;
     top: auto;
     font-size: 30px;
+    text-shadow: 1px 0px 10px black;
+  }
+
+  .sideContainer {
+
+    border-radius: 20px;
   }
 
   .invert {
