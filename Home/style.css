@@ -916,7 +916,7 @@ li:before {
   .poster {
     position: relative;
     display: grid;
-    width: 45vw;
+    width: 40vw;
     height: 350px;
     align-content: start;
     margin: 5px;
