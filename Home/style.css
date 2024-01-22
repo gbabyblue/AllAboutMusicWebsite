@@ -11,6 +11,7 @@ body {
 * {
   color: white
 }
+
 .backdrop {
   width: 100%; 
   height: 100%; 
@@ -19,7 +20,8 @@ body {
   background-image: url('Images/posterBackdrop.jpg');
   background-size: cover;
   background-position: center;
-  opacity: .42;
+  opacity: .3;
+  z-index: 0;
 }
 
 
@@ -286,6 +288,7 @@ li:before {
   width:100%; 
   justify-content: center; 
   padding: 40px 0px;
+  overflow: hidden;
   /**padding-bottom: 60px*/
 }
 
@@ -345,7 +348,7 @@ li:before {
 
 .homeButton:hover {
   opacity: 1;
-  box-shadow: 0px 0px 5px 2px blue ;
+  box-shadow: 1px 0px 20px 5px blue ;
 }
 
 .sideContainer {
@@ -361,7 +364,7 @@ li:before {
 .sideButton {
   text-align: center;
   padding: 25px 0px 25px 0px;
-  border: 1px solid white;
+  border: 2px inset white;
   color: white;
   width: 80%;
   height: 2ch;
@@ -374,6 +377,8 @@ li:before {
   justify-self: center;
   font-size: 25px;
   font-family: 'Kumar One Outline'; 
+  box-shadow: 0px 10px 50px 2px blue;
+  text-decoration: none;
 }
 
 .description {
@@ -386,6 +391,7 @@ li:before {
   width: 80%;
   color: white;
   font-size: 30px;
+  box-shadow: 1px 0px 10px 1px black;
 }
 
 .wrapper {
@@ -396,7 +402,6 @@ li:before {
   background-color: darkblue;
   border-radius: 40px;
   width: 98%;
-  overflow: hidden;
   background-image: url('Images/IMAG000.jpg');
   background-size: contain;
   background-position: center;
@@ -911,10 +916,10 @@ li:before {
   .poster {
     position: relative;
     display: grid;
-    width: 95vw;
-    height: 95vw;
+    width: 45vw;
+    height: 350px;
     align-content: start;
-    margin: 10px 0px 10px 0px;
+    margin: 5px;
   }
 
   span {
@@ -929,8 +934,9 @@ li:before {
   */
   .dualPic {
     margin: 0px auto;
-    display: grid;
+    flex-wrap: wrap;
     padding: 80px 0px;
+    overflow: hidden;
   }
 
   .wrapper {
@@ -953,6 +959,7 @@ li:before {
     top: auto;
     font-size: 30px;
     text-shadow: 1px 0px 10px black;
+    box-shadow: none;
   }
 
   .sideContainer {
