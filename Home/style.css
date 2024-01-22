@@ -285,7 +285,7 @@ li:before {
   align-items: center; 
   margin: 0 auto; 
   background-color: transparent; 
-  width:100%; 
+  width: 90vw; 
   justify-content: center; 
   padding: 40px 0px;
   overflow: hidden;
