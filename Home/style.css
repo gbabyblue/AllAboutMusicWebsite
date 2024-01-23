@@ -346,7 +346,7 @@ li:before {
   display: none;
 }
 
-.homeButton:hover {
+.homeButton:hover, .sideButton:hover {
   opacity: 1;
   box-shadow: 1px 0px 20px 5px blue ;
 }
@@ -369,15 +369,15 @@ li:before {
   width: 80%;
   height: 2ch;
   background-image: url('Images/IMAG000.jpg');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
-  background-color: darkblue;
+  background-color: rgb(0, 0, 34);
   border-radius: 20px;
   min-width: fit-content;
   justify-self: center;
   font-size: 25px;
   font-family: 'Kumar One Outline'; 
-  box-shadow: 0px 10px 50px 2px blue;
+   box-shadow: 1px 0px 20px 5px black ;
   text-decoration: none;
 }
 
