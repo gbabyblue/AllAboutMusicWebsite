@@ -758,6 +758,7 @@ li:before {
 
   .description {
     margin: 10px auto;
+    padding: 20px 0px;
   }
 
 
@@ -808,6 +809,14 @@ li:before {
 
   .invert {
     font-size: 40px !important;
+  }
+
+  .wrapper:hover {
+    box-shadow:none;
+  }
+
+  .homeButton:hover {
+    box-shadow: 1px 0px 20px 5px blue ;
   }
 }
 
