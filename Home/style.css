@@ -142,6 +142,20 @@ li:before {
   filter: drop-shadow(0px 0px 30px blue );
 }
 
+.prizeRibbon {
+  width: 200px;
+  height: 200px; 
+  display: grid; 
+  z-index: 999;
+  background-image: url('Images/prizeRibbon.png'); 
+  background-size: cover; 
+  align-self:center; 
+  justify-self: center; 
+  background-position: center;
+  filter: drop-shadow(0px 0px 30px blue);
+  background-repeat: no-repeat;
+}
+
 /***************  TOP NAVIGATION  ***************/
 .stickyNav {
   display: flex;
@@ -1018,6 +1032,19 @@ li:before {
 
   .homeButton:hover {
     box-shadow: 1px 0px 20px 5px blue ;
+  }
+
+  .bioContainer1 {
+    display: grid !important
+  }
+
+  .prizeRibbon {
+    width: 200px;
+    height: 200px;
+  }
+
+  .prizeRibbon1 {
+    display: none;
   }
 }
 
