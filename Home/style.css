@@ -103,7 +103,7 @@ li:before {
   background-size: contain;
   background-color: darkblue;
   z-index:99;
-  box-shadow: 1px 0px 5px 1px blue ;
+  /**box-shadow: 1px 0px 5px 1px blue ;*/
 }
 
 .pageTitle {
