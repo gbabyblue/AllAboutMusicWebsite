@@ -102,8 +102,8 @@ li:before {
   background-image: url("Images/IMAG000.jpg");
   background-size: contain;
   background-color: darkblue;
-  z-index:99;
   /**box-shadow: 1px 0px 5px 1px blue ;*/
+  z-index: 999;
 }
 
 .pageTitle {
@@ -543,6 +543,7 @@ li:before {
   background-size: contain;
   background-color: darkblue;
   margin: 0 auto;
+  z-index: 999;
 }
 
 .homeAddress {
