@@ -228,6 +228,7 @@ li:before {
   width: 100%;
   display: grid;
   background-color: darkblue;
+  max-height: 750px;
 }
 
 .hero {
@@ -235,7 +236,7 @@ li:before {
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   align-content: center;
-  max-height: 100vh;
+  /**max-height: 100vh;**/
   width: 100%;
 }
 
@@ -261,6 +262,7 @@ li:before {
   width: 100%;
   justify-items: center;
   align-content: center;
+  max-height: 750px;
   /**
   background-image:url('Images/posterMobile.jpg');
   background-size: cover;
