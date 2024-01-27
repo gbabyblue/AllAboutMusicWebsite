@@ -101,7 +101,7 @@ li:before {
   width: 100%;
   background-image: url("Images/IMAG000.jpg");
   background-size: contain;
-  background-color: darkblue;
+  background-color: navy;
   /**box-shadow: 1px 0px 5px 1px blue ;*/
   z-index: 999;
 }
@@ -227,7 +227,7 @@ li:before {
 .callToAction {
   width: 100%;
   display: grid;
-  background-color: darkblue;
+  background-color: navy;
   max-height: 750px;
 }
 
@@ -376,7 +376,7 @@ li:before {
   width: 100%;
   min-height: 200px;
   align-content: center;
-  background-color: darkblue;
+  background-color: navy;
 }
 
 .mobileOnly {
@@ -491,7 +491,7 @@ li:before {
   background-image: url('Images/IMAG000.jpg');
   background-size: cover;
   background-position: center;
-  background-color: darkblue;
+  background-color: navy;
   min-width: fit-content;
   justify-self: center;
   font-size: 40px;
@@ -525,7 +525,7 @@ li:before {
   width: 1050px;
   height: 400px;
   border-radius: 40px;
-  background-color: darkblue;
+  background-color: navy;
   border: 2px solid grey; /**2px solid whitesmoke;*/
   /**
   background-image: url('Images/IMAG000.jpg');
@@ -615,7 +615,7 @@ li:before {
   /**box-shadow: 0px 0px 10px 2px black ;**/
   background-image: url("Images/IMAG000.jpg");
   background-size: contain;
-  background-color: darkblue;
+  background-color: navy;
   margin: 0 auto;
   z-index: 999;
 }
