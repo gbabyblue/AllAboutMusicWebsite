@@ -262,6 +262,7 @@ li:before {
   width: 100%;
   justify-items: center;
   max-height: 750px;
+  overflow: hidden;
   /**
   background-image:url('Images/posterMobile.jpg');
   background-size: cover;
