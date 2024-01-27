@@ -261,7 +261,6 @@ li:before {
   margin: 0 auto;
   width: 100%;
   justify-items: center;
-  align-content: center;
   max-height: 750px;
   /**
   background-image:url('Images/posterMobile.jpg');
