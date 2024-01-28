@@ -583,6 +583,10 @@ li:before {
   width: 100vw;
 }
 
+.footer {
+  justify-content: space-between;
+}
+
 
 
 
@@ -921,6 +925,10 @@ li:before {
 
 
 @media (max-width: 749px) {
+  .footer {
+    justify-content: space-evenly;
+  }
+  
   .mobileOnly {
     display: grid !important;
   }
