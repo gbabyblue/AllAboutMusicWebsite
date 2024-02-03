@@ -9,16 +9,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Kumar+One+Outline&family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   <link rel = "icon" href = "Images/Favicon/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="Images/Favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="Images/Favicon/favicon-16x16.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
-  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class = "stickyHeader"> 
-    <div class = "max" style = "max-width: 1100px; width: 100%">
+    <div class = "max" style = "max-width: 1800px; width: 100%">
       <div class = "leftHeader">
         <a href="https://gentle-tree-0193a360f.4.azurestaticapps.net"> 
           <div class = "logo">
@@ -61,121 +62,127 @@
     </div>
   </div>
 
+  <div class = "backdrop"> </div>
+
   <div id="CTRDIV" class = "fade">
-    <div style = "background-color: darkblue; padding: 40px; position: relative; display: grid;">
-      <p class = "signUp invert">
-        Jump-Start Your Music Journey
-      </p>
-    </div>
-    <div class = "pictures" style = "display: flex; margin-left: auto; margin-right: auto;">
-        <div class = "buildingPhoto" style="position: relative; display: grid;">
+
+    <div class = "callToAction">
+      <div class = "hero">  
+        <div class = "title">Jump-Start Your Music Journey!</div>
+        <div class = "topPhotoContainer">
+          <img class = "topPhoto"  src = "Images/Storefront2.jpg">
+          <!--
+          <div style = "display: grid; width: 50%; border-radius: 50%; position: relative;">
+            <img class = "topPhoto" src = "Images/Storefront2.jpg">
+            <div class = "animate" style="border-radius: 50%; position: absolute; justify-self: center; align-self: center;"></div>
+          </div>
+          -->
         </div>
+      </div>
     </div>
 
-    <div class = "topNav">
-      <a href="https://brave-smoke-0e6c9e60f.4.azurestaticapps.net" name="#Lessons"> Lessons
-      </a>
-      <a href="../Instruments/instruments.html" name="#Instruments"> Instruments
-      </a>
-      <a href="../Accessories/accessories.html" name="#Accessories"> Accessories
-      </a>
-      <a href="../Repair/repair.html" name="#Repair"> Repair
-      </a>
-      <a href="../Rentals/rentals.html" name="#Rentals"> Rentals
-      </a>
-      <a href="../Contact/contact.html" name="#Contact"> Contact
-      </a>
+    <div class = "mobileOnly" style = "background-color: navy; padding: 50px 0px; position: relative;">
+      <p class = "signUp invert" style="max-width: 95vw;letter-spacing: 3px;">
+        Jump-Start Your Music Journey!
+      </p>
+    </div>
+
+    <div  class = "bioContainer1 mobileOnly" style = "align-items: center;">
+      <div class = "prizeRibbon prizeRibbon1"></div>
+      <p class = "bio">
+        We pride ourselves in 20+ years of <span style = "color: yellow;">musical service</span> to our community.
+      </p>
+      <div class = "prizeRibbon prizeRibbon12"></div>
     </div>
     
-    
-    <div class = "max bio" style = "display:grid; position: relative; justify-content: center; margin: 0 auto;padding: 0px;">
-      <p style = "text-align: center; max-width: 1050px; width: 100%;">
-        <span style = "color: darkblue; font-weight: bolder;">All About Music</span> provides the best and most affordable music services in Baltimore County.
+    <div  class = "bioContainer1 desktopOnly" style = " align-items: center;">
+      <div class = "prizeRibbon prizeRibbon1"></div>
+      <p class = "bio">
+        We pride ourselves in 20+ years of <span style = "color: yellow;">musical service</span> to our community.
       </p>
-
-      <p style = "text-align: center; max-width: 1050px;justify-self: center;">
-        We offer music lessons, instrument rentals, repairs and music sales. 
-      </p>
-
-      <p style = "padding: 10px;text-align: center; max-width: 1050px;">
-        We do the majority of rentals and repair work for schools in Baltimore County.
-      </p>
-
-      <p style = "text-align: center; max-width: 1050px;">
-        Founded in 2003 by Charlie Higgins, we pride ourselves in 21 years of commitment to our community.
-      </p>
-      <p style = "text-align: center; max-width: 1050px;">
-        We are located at <a href="https://maps.app.goo.gl/iRYiVKHdG7XyHLDV6"  style = 'color:black'>North Plaza in Parkville, MD.</a>
-      </p>
-
+      <div class = "prizeRibbon prizeRibbon12"></div>
     </div>
 
-    <div style = "background-color: darkblue; padding: 40px">
-      <div class ="signUp invert fade">
+    <div class = "pictures mobileOnly" style = "margin-left: auto; margin-right: auto;">
+      <img class = "banner" alt = "All About Music Home Page banner">
+    </div>
+
+
+
+    <!--
+    <div class = "desktopOnly"style = "background-color: navy; padding: 20px 0px; position: relative;">
+      <p class = "signUp invert" style="max-width: 95vw;">
+        Jump-Start Your Music Journey!
+      </p>
+    </div>
+    -->
+
+    
+    <div class = "dualPic">
+      <div class = "poster" style = "background-image: url('Images/Storefront.jpg');"></div>
+      <div class = "poster" style = "background-image: url('Images/AAMWaitingroom.jpg');"></div>
+      <div class = "poster" style = "background-image: url('Images/drumRoom.jpg');"></div> 
+      <div class = "poster" style = "background-image: url('Images/keyboardRoom.jpg');"></div>
+      <div class = "poster" style = "background-image: url('Images/guitarRoom.jpg');"></div>
+      <div class = "poster" style = "background-image: url('Images/groupRoom.jpg');"></div>
+    </div>
+
+    <div  class = "bioContainer2" style = "display: grid; padding: 30px 0px; background-color: transparent;">
+      <p class = "bio" style="text-shadow: 1px 0px 10px black; display: grid; ">
+        <a href="https://maps.app.goo.gl/iRYiVKHdG7XyHLDV6" style = "text-decoration: none;">
+          <span style = "color: white; ">All About Music</span> is located in <span  style = 'color: deepskyblue; font-size: larger; text-decoration: underline;'>North Plaza Shopping Center</span> in Parkville, Maryland.
+          <i class="material-icons" style="color:yellow">&#xe55f;</i>
+        </a>
+      </p>
+      <a href = "https://maps.app.goo.gl/iRYiVKHdG7XyHLDV6" style = "width: 120px; height: 120px; background-image: url('Images/northPlaza.jpg'); background-size: contain; border-radius: 50%;align-self:center; justify-self: center; margin-top: 40px;"></a>
+    </div>
+
+
+    <!--
+    
+
+    <div style = "background-color: navy; max-width: 100%;">
+      <p class = "bio" style = "text-align: center; color: white; background-color: navy; padding-left:0px;padding-right:0px; padding-top: 10px;padding-bottom:10px;;">
+        Our facility:
+      </p>
+    </div>
+    -->
+
+
+
+
+
+
+
+    <div style = "background-color: navy; padding: 100px 0px; position: relative; display: grid;">
+      <div class ="signUp invert fade"  style="max-width: 95vw;">
         Sign Up Today and Learn To Play! 
       </div>
     </div>
-
-    <div class = "max bio" style = "display:grid">
-
-      <!--
-      <p style = "padding: 10px;text-align: center;">
-        We are dedicated to:
-      </p>
-      -->
     
-      <p style="text-align: center; padding: 0; margin: 0;">High quality lessons!</p>
-      <p style="text-align: center; padding: 0; margin: 0;">Top notch repairs!</p>
-      <p style="text-align: center; padding: 0; margin: 0;">Instrument sales!</p>
-      <p style="text-align: center; padding: 0; margin: 0;">Accessory sales!</p>
-      <p style="text-align: center; padding: 0; margin: 0;">Summer band camps!</p>
-      <p style="text-align: center; padding: 0; margin: 0;">And much more!</p>
-  
-    </div>
-
-    <div style = "background-color: darkblue; max-width: 100%;">
-      <p class = "bio" style = "text-align: center; color: white; background-color: darkblue; padding-left:0px;padding-right:0px; padding-top: 10px;padding-bottom:10px;;">
-        Our facility:
-      </p>
-
-      <div class = "dualPic">
-        <div class = "poster" style = "background-image: url('Images/Storefront2.jpg');">
-        </div>
-        <div class = "poster" style = "background-image: url('Images/AAMWaitingroom.jpg');">
-        </div>
-
-        <!--
-        <div class = "poster" style = "background-image: url('Images/inside.jpeg'); margin: 10px;">
-        </div>
-        <div class = "poster" style = "background-image: url('Images/AAMWaitingroom.jpg'); margin: 10px;">
-        </div>
-        <div class = "poster" style = "background-image: url('Images/AAMWaitingroom.jpg'); margin: 10px;">
-        </div>
-        -->
-      </div>
-    </div>
-
-    <div class = "max bio" style = "display:grid">
-      <p style = "text-align: center;">
-        Check out all the services we offer:
+    <!--
+    <div class = "bio" style = "display:grid">
+      <p style = "text-align: center; margin-top: 60px;">
+        Click for more information:
       </p>
     </div>
+    -->
     
     <div class = "topContainer">
       <div class = "wrapper">
         <div class = "homeButton" >
-          <a href="https://brave-smoke-0e6c9e60f.4.azurestaticapps.net" name="#Lessons" style = "background-image: url('Images/musicLessons.jpg'); background-size: cover; background-repeat: no-repeat; background-color: white; background-position: bottom;"> 
+          <a href="https://brave-smoke-0e6c9e60f.4.azurestaticapps.net" name="#Lessons" style = "background-image: url('Images/drumRoom.jpg'); background-size: cover; background-repeat: no-repeat; background-color: white; background-position: bottom;"> 
             <div class = "buttonPhoto"> LESSONS </div>
           </a>
         </div>
-        <div class = "sideContainer">
-          <div class = "sideButton">
+
+        <div  class = "sideContainer">
+          <a href="https://brave-smoke-0e6c9e60f.4.azurestaticapps.net" class = "sideButton">
             LESSONS
-            <a href="https://brave-smoke-0e6c9e60f.4.azurestaticapps.net"></a>
-          </div>
-          <div class = "bio description">
-            Learn music in a variety of formats with experienced teachers.
-          </div>
+          </a>
+          <a href="https://brave-smoke-0e6c9e60f.4.azurestaticapps.net" class = "bio description">
+            <span style = "color: yellow;">Learn</span> music in a variety of formats with professional teachers.
+          </a>
         </div>
         
       </div>
@@ -187,13 +194,13 @@
           </a>
         </div>
         <div class = "sideContainer">
-          <div class = "sideButton" >
+          <a href="../Instruments/instruments.html" class = "sideButton" >
             INSTRUMENTS
-            <a href="../Instruments/instruments.html"></a>
-          </div>
-          <div class = "bio description">
-            Explore the wide range of instruments that are taught within our facility.
-          </div>
+          </a>
+
+          <a href="../Instruments/instruments.html" class = "bio description">
+            <span style = "color: yellow;">Explore</span> the wide range of instruments that are taught within our facility.
+          </a>
           
         </div>
       </div>
@@ -205,12 +212,11 @@
           </a>
         </div>
         <div class = "sideContainer">
-          <div class = "sideButton">
+          <a href="../Accessories/accessories.html" class = "sideButton">
             ACCESSORIES
-            <a href="../Accessories/accessories.html"></a>
-          </div>
+          </a>
           <div class = "bio description">
-            Purchase all your music gear and accessories.
+            <span style = "color: yellow;">Purchase</span> all your music gear and accessories everyday.
           </div>
           
         </div>
@@ -223,12 +229,11 @@
           </a>
         </div>
         <div class = "sideContainer">
-          <div class = "sideButton">
+          <a href="../Repair/repair.html" class = "sideButton">
             REPAIR
-            <a href="../Repair/repair.html"></a>
-          </div>
+          </a>
           <div class = "bio description">
-            Bring instruments for repair work with our technicians who have decades of experience.
+            <span style = "color: yellow;">Repair</span> instruments with technicians who have decades of experience.
           </div>
           
         </div>
@@ -241,54 +246,77 @@
           </a>
         </div>
         <div class = "sideContainer">
-          <div class = "sideButton">
+          <a href="../Rentals/rentals.html" class = "sideButton">
             RENTALS
-            <a href="../Rentals/rentals.html"></a>
-          </div>
+          </a>
           <div class = "bio description">
-            Rent instruments for any musical situation.
+            <span style = "color: yellow;">Rent</span> instruments for any musical situation.
           </div>
-          
         </div>
       </div>
-  
+
       <div class = "wrapper">
-        <div class="homeButton"  >
-          <a href="../Recording/recording.html" name="#Recording" style = "background-image: url('Images/recording.jpg');"> 
-            <div id = "recording" class = "buttonPhoto"> RECORDING </div>
+        <div class = "homeButton" >
+          <a href="https://brave-smoke-0e6c9e60f.4.azurestaticapps.net" name="#Lessons" style = "background-image: url('Images/recording.jpg'); background-size: cover; background-repeat: no-repeat; background-color: white; background-position: bottom;"> 
+            <div class = "buttonPhoto"> RECORDING </div>
           </a>
         </div>
-        <div class = "sideContainer">
-          <div class = "sideButton">
+
+        <div  class = "sideContainer">
+          <a href="https://brave-smoke-0e6c9e60f.4.azurestaticapps.net" class = "sideButton">
             RECORDING
-            <a href="../Recording/recording.html"></a>
-          </div>
+          </a>
           <div class = "bio description">
-            Book recording time in our state of the art studio.
+            <span style = "color: yellow;">Record</span> in our state of the art music studio 
           </div>
         </div>
+        
       </div>
   
       <div class = "wrapper">
         <div class="homeButton" >
-          <a href="../Contact/contact.html" name="#Contact" style = "background-image: url('Images/poster.jpg');   ">
+          <a href="../Contact/contact.html" name="#Contact" style = "background-image: url('Images/poster.jpg');">
             <div id = "contact" class = "buttonPhoto"> CONTACT US </div>
           </a>
         </div>
         <div class = "sideContainer">
-          <div class = "sideButton">
+          <a href="../Contact/contact.html" class = "sideButton">
             CONTACT US
-            <a href="../Contact/contact.html"></a>
-          </div>
+          </a>
           <div class = "bio description">
-            Contact us to jump start your musical journey.
+            <span style = "color: yellow;">Contact us</span> to jump start your musical journey.
           </div>
         </div>
       </div>
     </div>
 
-  <!--
 
+        
+    <div class = "pictures desktopOnly" style = "display: flex; margin-left: auto; margin-right: auto; margin-bottom: 40px;">
+      <img class = "banner" alt = "All About Music Home Page banner">
+    </div>
+
+    <div style = "height: 620px; width: 100%; overflow: hidden; display: grid; align-items: center; margin: 0 auto; max-height: 50vh;">
+      <div class = "poster" style = "height: 200px; width: 200px; background-image: url('Images/Storefront.jpg'); margin: 10px;">
+        <div class = "animate" style="border-radius: 50%; position: absolute; justify-self: center; align-self: center;">
+        </div>
+      </div>
+    </div> 
+
+  </div>
+
+  <div style = "display:grid; width: 100%; padding-top: 20px; padding-bottom: 20px; justify-content: center;">
+    <div class = "bottomNav">
+      <div style = "display: flex; justify-content: space-evenly; width: 400px; max-width: 100vw; z-index: 1;">
+        <a href="https://www.facebook.com/AllAboutMusicMaryland/"  title="facebook" style = "background-image: url('Images/Facebook_logo.png'); width: 50px; height: 50px; background-size: contain;"> 
+        </a>
+        <a href="https://www.facebook.com/AllAboutMusicMaryland/"  title="Instagram" style = "background-image: url('Images/Instagram_icon.png'); width: 50px; height: 50px; background-size: contain;"> 
+        </a>
+      </div>
+    </div>
+  </div>
+
+    <!--
     <div class = "bottomContainer" style = "margin-bottom: 30px">
       <div class = "secondaryHeadline infoBox">
         <span><li class = "a">All Ages</li></span>
@@ -296,7 +324,7 @@
         <span><li class = "c">All Styles</li></span>
         <span><li class = "d">Beginner to Advanced</li></span> 
       </div>
-  
+    
       <div class = "secondaryHeadline infoBox">
         <span><li class = "a">Private Instruction</li></span>
         <span><li class = "b">Group Lessons</li></span>
@@ -304,48 +332,39 @@
         <span><li class = "d">Rentals & Repairs</li></span>
       </div>
     </div>   
-
     -->
 
-    <div style = "height: 40vw; width: 100%; overflow: hidden; display: grid; align-items: center; margin: 0 auto;">
-      <div class = "poster" style = "height: 200px; width: 200px; background-image: url('Images/Storefront.jpg'); margin: 10px;">
-        <div class = "animate" style="border-radius: 50%; position: absolute; justify-self: center; align-self: center;">
-        </div>
-      </div>
+    <!--
+    <div class = "bottomNav">
+      <a href="https://brave-smoke-0e6c9e60f.4.azurestaticapps.net" name="#Lessons"> Lessons
+      </a>
+      <a href="../Instruments/instruments.html" name="#Instruments"> Instruments
+      </a>
+      <a href="../Accessories/accessories.html" name="#Accessories"> Accessories
+      </a>
+      <a href="../Repair/repair.html" name="#Repair"> Repair
+      </a>
+      <a href="../Rentals/rentals.html" name="#Rentals"> Rentals
+      </a>
+      <a href="../Contact/contact.html" name="#Contact"> Contact
+      </a> 
     </div>
+        <div class = "bioContainer2" style = "display:grid;">
 
-    
-
-  </div>
-
-  <div style = "width: 100%; padding-top: 20px; padding-bottom: 20px;">
-      <div class = "bottomNav">
-        <!--
-        <a href="https://brave-smoke-0e6c9e60f.4.azurestaticapps.net" name="#Lessons"> Lessons
-        </a>
-        <a href="../Instruments/instruments.html" name="#Instruments"> Instruments
-        </a>
-        <a href="../Accessories/accessories.html" name="#Accessories"> Accessories
-        </a>
-        <a href="../Repair/repair.html" name="#Repair"> Repair
-        </a>
-        <a href="../Rentals/rentals.html" name="#Rentals"> Rentals
-        </a>
-        <a href="../Contact/contact.html" name="#Contact"> Contact
-        </a>
-        -->
-        <div style = "display: flex; justify-content: space-evenly; width: 400px;">
-          <a href="https://www.facebook.com/AllAboutMusicMaryland/"  title="facebook" style = "background-image: url('Images/Facebook_logo.png'); width: 50px; height: 50px; background-size: contain;"> 
-          </a>
-          <a href="https://www.facebook.com/AllAboutMusicMaryland/"  title="Instagram" style = "background-image: url('Images/Instagram_icon.png'); width: 50px; height: 50px; background-size: contain;"> 
-          </a>
-        </div>
-        
-      </div>
+      <p class="bio" style="text-align: center; padding: 0; margin: 0;">High quality lessons!</p>
+      <p class="bio"  style="text-align: center; padding: 0; margin: 0;">Top notch repairs!</p>
+      <p class="bio"  style="text-align: center; padding: 0; margin: 0;">Instrument sales!</p>
+      <p class="bio"  style="text-align: center; padding: 0; margin: 0;">Accessory sales!</p>
+      <p class="bio"  style="text-align: center; padding: 0; margin: 0;">Summer band camps!</p>
+      <p class="bio"  style="text-align: center; padding: 0; margin: 0;">And much more!</p>
+  
     </div>
+    -->
+
+  
   
   <div class = "stickyFooter">
-    <div class = "max" style = "width: 95%;">
+    <div class = "max footer" style = "width: 95%; max-width: 1800px">
       <div class = 'homeAddress'>
         <a href = "https://maps.app.goo.gl/iRYiVKHdG7XyHLDV6" style="text-decoration: none; color: white;">8928 Waltham Woods Road, Baltimore, Maryland 21234</a>
       </div>
