@@ -893,7 +893,7 @@ li:before {
 
 
   .wrapper {
-    margin: 0px auto 40px auto;
+    margin: 40px auto;
     background-image: none;
     background-color: transparent;
     display: grid;
