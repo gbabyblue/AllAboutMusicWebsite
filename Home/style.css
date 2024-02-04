@@ -898,6 +898,7 @@ li:before {
     background-color: transparent;
     display: grid;
     border: none;
+    width: auto;
   }
 
   .buttonPhoto {
@@ -941,6 +942,11 @@ li:before {
 
   .homeButton:hover {
     box-shadow: 1px 0px 20px 5px blue ;
+  }
+
+  .topContainer {
+    display: grid;
+    margin: 0 auto;
   }
 }
 
