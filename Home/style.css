@@ -112,7 +112,7 @@ li:before {
   background-image: url("Images/IMAG000.jpg");
   background-size: cover;
   background-color: navy;
-  z-index: 999;
+  z-index: 9999;
   box-shadow: 1px 0px 5px 1px black;
 }
 
